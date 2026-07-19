@@ -74,7 +74,7 @@ This repository serves as my coding journal, where I consistently upload my dail
 
 ## 🤝 Connect With Me
 
-- 💼 LinkedIn: *(Add your LinkedIn profile link here)*
+- 💼 LinkedIn:https://www.linkedin.com/in/krishna-solanke-4123972b6/?skipRedirect=true
 - 💻 GitHub: https://github.com/krishna570
 
 ---

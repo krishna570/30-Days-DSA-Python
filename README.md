@@ -2,7 +2,7 @@
 
 Welcome to my **30 Days Data Structures & Algorithms (DSA) Challenge** using **Python**.
 
-This repository documents my daily progress as I solve Python programming and DSA problems on HackerRank. My goal is to strengthen my problem-solving skills, improve my coding ability, and maintain consistency through daily practice.
+This repository documents my daily progress as I solve Python programming and DSA challenges on **HackerRank**. My goal is to improve my problem-solving skills, strengthen my Python programming knowledge, and build consistency through daily practice.
 
 ---
 
@@ -12,32 +12,29 @@ This repository documents my daily progress as I solve Python programming and DS
 |:---:|-----------------|:------:|
 | Day 1 | Python If-Else | ✅ Completed |
 | Day 2 | Arithmetic Operators, Python Division, Loops | ✅ Completed |
-| Day 3 | Coming Soon | ⏳ |
+| Day 3 | Write a Function, Print Function | ✅ Completed |
 | Day 4 | Coming Soon | ⏳ |
-| ... | ... | ... |
 
 ---
 
-## 🎯 Challenge Goals
+## 🎯 Goals
 
 - 🧠 Improve problem-solving skills
 - 🐍 Master Python programming
-- 💻 Strengthen Data Structures & Algorithms concepts
+- 💻 Learn Data Structures & Algorithms
 - 🚀 Prepare for coding interviews
 - 📈 Build consistency through daily coding
 - 🌱 Learn in public and track my progress
 
 ---
 
-## 💻 Coding Platform
-
-- HackerRank
-
----
-
-## 🛠 Programming Language
+## 🛠️ Technologies Used
 
 - Python 3
+- VS Code
+- Git
+- GitHub
+- HackerRank
 
 ---
 
@@ -46,20 +43,20 @@ This repository documents my daily progress as I solve Python programming and DS
 ```text
 30-Days-DSA-Python/
 │
-├── Day-01-Python-If-Else/
-│   ├── Python If-Else.py
+├── Day-01/
+│   ├── Python_If_Else.py
 │   └── README.md
 │
-├── Day-02-Python/
-│   ├── Arithmetic Operators.py
-│   ├── Python Division.py
+├── Day-02/
+│   ├── Arithmetic_Operators.py
+│   ├── Python_Division.py
 │   ├── Loops.py
-│   ├── Day-02-HackerRank-Progress.png
 │   └── README.md
 │
-├── Day-03-Python/
-│
-├── Day-04-Python/
+├── Day-03/
+│   ├── Write_a_Function.py
+│   ├── Print_Function.py
+│   └── README.md
 │
 └── README.md
 ```
@@ -68,15 +65,15 @@ This repository documents my daily progress as I solve Python programming and DS
 
 ## 📈 Why This Repository?
 
-This repository serves as my coding journal, where I consistently upload my daily solutions and learning progress. It reflects my dedication to continuous improvement in Python programming and Data Structures & Algorithms.
+This repository serves as my coding journal, where I upload my daily HackerRank solutions and document my learning journey. It reflects my commitment to becoming a better Python programmer and software engineer through consistent practice.
 
 ---
 
-## 🤝 Connect With Me
+## 🌐 Connect With Me
 
-- 💼 LinkedIn:https://www.linkedin.com/in/krishna-solanke-4123972b6/?skipRedirect=true
+- 💼 LinkedIn: https://www.linkedin.com/in/krishna-solanke-4123972b6
 - 💻 GitHub: https://github.com/krishna570
 
 ---
 
-⭐ **If you found this repository helpful, consider giving it a Star!**
+⭐ If you like this repository, consider giving it a **Star**!

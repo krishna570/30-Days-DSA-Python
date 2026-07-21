@@ -6,6 +6,8 @@ This repository documents my daily progress as I solve Python programming and DS
 
 ---
 
+
+
 ## 📅 Challenge Progress
 
 | Day | Problems Solved | Status |
@@ -13,7 +15,8 @@ This repository documents my daily progress as I solve Python programming and DS
 | Day 1 | Python If-Else | ✅ Completed |
 | Day 2 | Arithmetic Operators, Python Division, Loops | ✅ Completed |
 | Day 3 | Write a Function, Print Function | ✅ Completed |
-| Day 4 | Coming Soon | ⏳ |
+| Day 4 | List Comprehensions, Find the Runner-Up Score! | ✅ Completed |
+| Day 5 | Coming Soon | ⏳ |
 
 ---
 

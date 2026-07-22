@@ -1,47 +1,33 @@
-# 🚀 30 Days DSA Challenge in Python
+# 🚀 30 Days DSA & Python Challenge
 
-Welcome to my **30 Days Data Structures & Algorithms (DSA) Challenge** using **Python**.
+Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository documents my daily progress as I solve Python programming and DSA challenges on **HackerRank**. My goal is to improve my problem-solving skills, strengthen my Python programming knowledge, and build consistency through daily practice.
+This repository documents my daily journey of solving **HackerRank Python** and **Data Structures & Algorithms** problems.
+
+My goal is simple:
+- 📚 Learn something new every day
+- 🧠 Improve problem-solving skills
+- 🐍 Strengthen Python fundamentals
+- 💻 Build strong coding habits
+- 🚀 Prepare for Software Engineering & Data Science roles
+
+> **"Consistency beats intensity."** One problem at a time. 💪
 
 ---
 
-
-
-## 📅 Challenge Progress
+# 📅 Challenge Progress
 
 | Day | Problems Solved | Status |
 |:---:|-----------------|:------:|
-| Day 1 | Python If-Else | ✅ Completed |
-| Day 2 | Arithmetic Operators, Python Division, Loops | ✅ Completed |
-| Day 3 | Write a Function, Print Function | ✅ Completed |
-| Day 4 | List Comprehensions, Find the Runner-Up Score! | ✅ Completed |
-| Day 5 | Coming Soon | ⏳ |
+| ✅ Day 1 | Python If-Else | Completed |
+| ✅ Day 2 | Arithmetic Operators, Python Division, Loops | Completed |
+| ✅ Day 3 | Write a Function, Print Function | Completed |
+| ✅ Day 4 | List Comprehensions, Find the Runner-Up Score! | Completed |
+| ✅ Day 5 | Nested Lists, Finding the Percentage | Completed |
 
 ---
 
-## 🎯 Goals
-
-- 🧠 Improve problem-solving skills
-- 🐍 Master Python programming
-- 💻 Learn Data Structures & Algorithms
-- 🚀 Prepare for coding interviews
-- 📈 Build consistency through daily coding
-- 🌱 Learn in public and track my progress
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- VS Code
-- Git
-- GitHub
-- HackerRank
-
----
-
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 30-Days-DSA-Python/
@@ -66,21 +52,74 @@ This repository documents my daily progress as I solve Python programming and DS
 │   ├── Runner_Up_Score.py
 │   └── README.md
 │
+├── Day-05/
+│   ├── Nested_Lists.py
+│   ├── Finding_the_Percentage.py
+│   └── README.md
+│
 └── README.md
+```
 
 ---
 
-## 📈 Why This Repository?
+# 🎯 Challenge Goals
 
-This repository serves as my coding journal, where I upload my daily HackerRank solutions and document my learning journey. It reflects my commitment to becoming a better Python programmer and software engineer through consistent practice.
+- ✅ Master Python Programming
+- ✅ Learn Data Structures & Algorithms
+- ✅ Improve Logical Thinking
+- ✅ Solve Coding Problems Daily
+- ✅ Prepare for Technical Interviews
+- ✅ Build Consistency Through Daily Practice
+- ✅ Showcase My Learning Journey on GitHub
 
 ---
 
-## 🌐 Connect With Me
+# 🛠️ Tech Stack
 
-- 💼 LinkedIn: https://www.linkedin.com/in/krishna-solanke-4123972b6
-- 💻 GitHub: https://github.com/krishna570
+- 🐍 Python 3
+- 💻 VS Code
+- 🌱 Git
+- 🚀 GitHub
+- 🏆 HackerRank
 
 ---
 
-⭐ If you like this repository, consider giving it a **Star**!
+# 📖 Why This Repository?
+
+This repository is my **coding journal** where I share my daily HackerRank solutions and learning progress.
+
+Every commit represents another step toward becoming a better programmer.
+
+Whether it's solving basic Python problems or tackling DSA challenges, this repository reflects my dedication to continuous improvement and lifelong learning.
+
+---
+
+# 📊 Current Progress
+
+**Days Completed:** **5 / 30**
+
+**Problems Solved:** **10+**
+
+🎯 **Next Milestone:** Day 6
+
+---
+
+# 🤝 Connect With Me
+
+💼 **LinkedIn**
+> https://www.linkedin.com/in/krishna-solanke-4123972b6
+
+💻 **GitHub**
+> https://github.com/krishna570
+
+---
+
+## ⭐ Support
+
+If you found this repository helpful or inspiring,
+
+⭐ **Star this repository**
+
+and follow my journey as I complete the **30 Days DSA & Python Challenge!**
+
+### 🚀 Keep Learning • Keep Building • Keep Growing

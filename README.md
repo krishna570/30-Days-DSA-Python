@@ -2,7 +2,7 @@
 
 Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository documents my daily journey of solving **HackerRank Python** and **Data Structures & Algorithms** problems.
+This repository documents my daily journey of solving **HackerRank Python** and **Data Structures & Algorithms (DSA)** problems.
 
 My goal is simple:
 - 📚 Learn something new every day
@@ -24,6 +24,7 @@ My goal is simple:
 | ✅ Day 3 | Write a Function, Print Function | Completed |
 | ✅ Day 4 | List Comprehensions, Find the Runner-Up Score! | Completed |
 | ✅ Day 5 | Nested Lists, Finding the Percentage | Completed |
+| ✅ Day 6 | Lists | Completed |
 
 ---
 
@@ -57,6 +58,10 @@ My goal is simple:
 │   ├── Finding_the_Percentage.py
 │   └── README.md
 │
+├── Day-06/
+│   ├── Lists.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -77,7 +82,7 @@ My goal is simple:
 # 🛠️ Tech Stack
 
 - 🐍 Python 3
-- 💻 VS Code
+- 💻 Visual Studio Code
 - 🌱 Git
 - 🚀 GitHub
 - 🏆 HackerRank
@@ -86,40 +91,35 @@ My goal is simple:
 
 # 📖 Why This Repository?
 
-This repository is my **coding journal** where I share my daily HackerRank solutions and learning progress.
+This repository serves as my personal coding journal where I document my daily progress while solving Python and DSA challenges on HackerRank.
 
-Every commit represents another step toward becoming a better programmer.
-
-Whether it's solving basic Python problems or tackling DSA challenges, this repository reflects my dedication to continuous improvement and lifelong learning.
+Every commit represents another step toward becoming a better programmer through continuous learning, consistency, and practice.
 
 ---
 
 # 📊 Current Progress
 
-**Days Completed:** **5 / 30**
-
-**Problems Solved:** **10+**
-
-🎯 **Next Milestone:** Day 6
+- 📅 **Days Completed:** **6 / 30**
+- 💻 **Problems Solved:** **11+**
+- ⭐ **HackerRank Python:** **3 Stars**
+- 🎯 **Next Milestone:** **Day 7**
 
 ---
 
 # 🤝 Connect With Me
 
-💼 **LinkedIn**
-> https://www.linkedin.com/in/krishna-solanke-4123972b6
+### 💼 LinkedIn
+🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6**
 
-💻 **GitHub**
-> https://github.com/krishna570
+### 💻 GitHub
+🔗 **https://github.com/krishna570**
 
 ---
 
 ## ⭐ Support
 
-If you found this repository helpful or inspiring,
+If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
 
-⭐ **Star this repository**
+Your support motivates me to keep learning, keep building, and keep sharing my progress.
 
-and follow my journey as I complete the **30 Days DSA & Python Challenge!**
-
-### 🚀 Keep Learning • Keep Building • Keep Growing
+### 🚀 Keep Coding • Keep Learning • Keep Growing

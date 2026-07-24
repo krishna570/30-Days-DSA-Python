@@ -2,16 +2,9 @@
 
 Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository documents my daily journey of solving **HackerRank Python** and **Data Structures & Algorithms (DSA)** problems.
+This repository showcases my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. My mission is to improve my programming skills, strengthen my problem-solving ability, and stay consistent by solving coding problems every day.
 
-My goal is simple:
-- 📚 Learn something new every day
-- 🧠 Improve problem-solving skills
-- 🐍 Strengthen Python fundamentals
-- 💻 Build strong coding habits
-- 🚀 Prepare for Software Engineering & Data Science roles
-
-> **"Consistency beats intensity."** One problem at a time. 💪
+> 💡 **"Success is built one problem at a time. Stay consistent, stay curious, and keep coding."**
 
 ---
 
@@ -25,6 +18,7 @@ My goal is simple:
 | ✅ Day 4 | List Comprehensions, Find the Runner-Up Score! | Completed |
 | ✅ Day 5 | Nested Lists, Finding the Percentage | Completed |
 | ✅ Day 6 | Lists | Completed |
+| ✅ Day 7 | Swap Case | Completed |
 
 ---
 
@@ -62,6 +56,10 @@ My goal is simple:
 │   ├── Lists.py
 │   └── README.md
 │
+├── Day-07/
+│   ├── Swap_Case.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -69,13 +67,13 @@ My goal is simple:
 
 # 🎯 Challenge Goals
 
-- ✅ Master Python Programming
-- ✅ Learn Data Structures & Algorithms
-- ✅ Improve Logical Thinking
-- ✅ Solve Coding Problems Daily
-- ✅ Prepare for Technical Interviews
-- ✅ Build Consistency Through Daily Practice
-- ✅ Showcase My Learning Journey on GitHub
+- 🐍 Master Python Programming
+- 🧠 Improve Problem-Solving Skills
+- 📚 Learn Data Structures & Algorithms
+- 💻 Build Strong Coding Habits
+- 🚀 Prepare for Technical Interviews
+- 🌱 Learn in Public
+- 📈 Track My Daily Progress on GitHub
 
 ---
 
@@ -91,18 +89,20 @@ My goal is simple:
 
 # 📖 Why This Repository?
 
-This repository serves as my personal coding journal where I document my daily progress while solving Python and DSA challenges on HackerRank.
+This repository is my **daily coding journal**, where I document my progress while solving Python and DSA challenges on HackerRank.
 
-Every commit represents another step toward becoming a better programmer through continuous learning, consistency, and practice.
+Each commit represents another step toward becoming a better programmer through continuous learning, consistency, and practical problem-solving.
+
+My goal is not just to complete the challenge—but to build a strong foundation in Python and DSA that will help me in coding interviews and real-world software development.
 
 ---
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **6 / 30**
-- 💻 **Problems Solved:** **11+**
+- 📅 **Days Completed:** **7 / 30**
+- 💻 **Problems Solved:** **12+**
 - ⭐ **HackerRank Python:** **3 Stars**
-- 🎯 **Next Milestone:** **Day 7**
+- 🎯 **Next Milestone:** **Day 8**
 
 ---
 
@@ -120,6 +120,16 @@ Every commit represents another step toward becoming a better programmer through
 
 If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
 
-Your support motivates me to keep learning, keep building, and keep sharing my progress.
+Your support motivates me to keep learning, keep building, and keep sharing my progress with the developer community.
 
-### 🚀 Keep Coding • Keep Learning • Keep Growing
+---
+
+# 🚀 Keep Coding • Keep Learning • Keep Growing
+
+### 📌 Challenge Status
+
+```text
+███████░░░░░░░░░░░░░░░░░ 7/30 Days Completed (23%)
+```
+
+**Next Goal:** 🎯 Complete **Day 8** and continue building momentum!

@@ -2,9 +2,9 @@
 
 Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository showcases my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. My mission is to improve my programming skills, strengthen my problem-solving ability, and stay consistent by solving coding problems every day.
+This repository showcases my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. My goal is to strengthen my programming skills, improve problem-solving ability, and build the habit of coding every single day.
 
-> 💡 **"Success is built one problem at a time. Stay consistent, stay curious, and keep coding."**
+> 💡 **"Small steps every day lead to big achievements tomorrow."**
 
 ---
 
@@ -19,6 +19,7 @@ This repository showcases my journey of solving **Python** and **Data Structures
 | ✅ Day 5 | Nested Lists, Finding the Percentage | Completed |
 | ✅ Day 6 | Lists | Completed |
 | ✅ Day 7 | Swap Case | Completed |
+| ✅ Day 8 | String Split and Join | Completed |
 
 ---
 
@@ -60,6 +61,10 @@ This repository showcases my journey of solving **Python** and **Data Structures
 │   ├── Swap_Case.py
 │   └── README.md
 │
+├── Day-08/
+│   ├── String_Split_and_Join.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -71,9 +76,9 @@ This repository showcases my journey of solving **Python** and **Data Structures
 - 🧠 Improve Problem-Solving Skills
 - 📚 Learn Data Structures & Algorithms
 - 💻 Build Strong Coding Habits
-- 🚀 Prepare for Technical Interviews
+- 🚀 Prepare for Coding Interviews
 - 🌱 Learn in Public
-- 📈 Track My Daily Progress on GitHub
+- 📈 Track My Progress Consistently on GitHub
 
 ---
 
@@ -87,32 +92,40 @@ This repository showcases my journey of solving **Python** and **Data Structures
 
 ---
 
-# 📖 Why This Repository?
+# 📖 About This Repository
 
-This repository is my **daily coding journal**, where I document my progress while solving Python and DSA challenges on HackerRank.
+This repository serves as my **coding journal**, where I document my daily progress while solving Python and DSA challenges on HackerRank.
 
-Each commit represents another step toward becoming a better programmer through continuous learning, consistency, and practical problem-solving.
+Every commit represents another step toward becoming a better programmer through continuous learning, consistent practice, and problem-solving.
 
-My goal is not just to complete the challenge—but to build a strong foundation in Python and DSA that will help me in coding interviews and real-world software development.
+My goal is not only to complete this 30-day challenge but also to build a solid foundation for technical interviews and software development.
 
 ---
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **7 / 30**
-- 💻 **Problems Solved:** **12+**
+- 📅 **Days Completed:** **8 / 30**
+- 💻 **Problems Solved:** **13+**
 - ⭐ **HackerRank Python:** **3 Stars**
-- 🎯 **Next Milestone:** **Day 8**
+- 🎯 **Next Milestone:** **Day 9**
+
+---
+
+# 📈 Challenge Status
+
+```text
+████████░░░░░░░░░░░░░░░ 8/30 Days Completed (27%)
+```
 
 ---
 
 # 🤝 Connect With Me
 
 ### 💼 LinkedIn
-🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6**
+🔗 **www.linkedin.com/in/krishna-solanke-4123972b6**
 
 ### 💻 GitHub
-🔗 **https://github.com/krishna570**
+🔗 **github.com/krishna570**
 
 ---
 
@@ -120,16 +133,10 @@ My goal is not just to complete the challenge—but to build a strong foundation
 
 If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
 
-Your support motivates me to keep learning, keep building, and keep sharing my progress with the developer community.
+Your support motivates me to continue learning, building, and sharing my progress with the developer community.
 
 ---
 
 # 🚀 Keep Coding • Keep Learning • Keep Growing
 
-### 📌 Challenge Status
-
-```text
-███████░░░░░░░░░░░░░░░░░ 7/30 Days Completed (23%)
-```
-
-**Next Goal:** 🎯 Complete **Day 8** and continue building momentum!
+> **"Consistency is the key to mastering programming."** 💙

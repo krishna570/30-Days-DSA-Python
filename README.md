@@ -2,7 +2,7 @@
 
 Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository showcases my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. My goal is to strengthen my programming skills, improve problem-solving ability, and build the habit of coding every single day.
+This repository documents my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. My goal is to strengthen my programming skills, improve problem-solving abilities, and build the habit of coding consistently every day.
 
 > 💡 **"Small steps every day lead to big achievements tomorrow."**
 
@@ -20,6 +20,7 @@ This repository showcases my journey of solving **Python** and **Data Structures
 | ✅ Day 6 | Lists | Completed |
 | ✅ Day 7 | Swap Case | Completed |
 | ✅ Day 8 | String Split and Join | Completed |
+| ✅ Day 9 | What's Your Name?, Mutations | Completed |
 
 ---
 
@@ -65,6 +66,11 @@ This repository showcases my journey of solving **Python** and **Data Structures
 │   ├── String_Split_and_Join.py
 │   └── README.md
 │
+├── Day-09/
+│   ├── Whats_Your_Name.py
+│   ├── Mutations.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -73,12 +79,13 @@ This repository showcases my journey of solving **Python** and **Data Structures
 # 🎯 Challenge Goals
 
 - 🐍 Master Python Programming
-- 🧠 Improve Problem-Solving Skills
+- 🧠 Strengthen Problem-Solving Skills
 - 📚 Learn Data Structures & Algorithms
-- 💻 Build Strong Coding Habits
+- 💻 Build Consistent Coding Habits
 - 🚀 Prepare for Coding Interviews
 - 🌱 Learn in Public
-- 📈 Track My Progress Consistently on GitHub
+- 📈 Track My Daily Progress on GitHub
+- ⭐ Earn Higher HackerRank Badges
 
 ---
 
@@ -94,38 +101,81 @@ This repository showcases my journey of solving **Python** and **Data Structures
 
 # 📖 About This Repository
 
-This repository serves as my **coding journal**, where I document my daily progress while solving Python and DSA challenges on HackerRank.
+This repository serves as my personal coding journal where I upload my daily Python and DSA solutions from HackerRank.
 
-Every commit represents another step toward becoming a better programmer through continuous learning, consistent practice, and problem-solving.
+Every commit reflects my commitment to becoming a better software developer through continuous learning, consistent practice, and disciplined problem-solving.
 
-My goal is not only to complete this 30-day challenge but also to build a solid foundation for technical interviews and software development.
+My objective is not just to complete this 30-day challenge but to build a strong foundation for software development, coding interviews, and real-world programming.
 
 ---
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **8 / 30**
-- 💻 **Problems Solved:** **13+**
+- 📅 **Days Completed:** **9 / 30**
+- 💻 **Problems Solved:** **15+**
 - ⭐ **HackerRank Python:** **3 Stars**
-- 🎯 **Next Milestone:** **Day 9**
+- 🎯 **Current Focus:** Python Strings
+- 🚀 **Next Milestone:** **Day 10**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-████████░░░░░░░░░░░░░░░ 8/30 Days Completed (27%)
+█████████░░░░░░░░░░░░░ 9/30 Days Completed (30%)
 ```
+
+---
+
+# 🏆 Skills Covered So Far
+
+- ✅ Python If-Else
+- ✅ Arithmetic Operators
+- ✅ Python Division
+- ✅ Loops
+- ✅ Functions
+- ✅ Print Function
+- ✅ List Comprehensions
+- ✅ Lists
+- ✅ Nested Lists
+- ✅ Runner-Up Score
+- ✅ Dictionaries
+- ✅ Average Calculation
+- ✅ String Methods
+- ✅ String Split & Join
+- ✅ String Formatting
+- ✅ String Slicing
+- ✅ String Mutation
+
+---
+
+# 🌟 Why This Challenge?
+
+✔️ Build consistency through daily coding.
+
+✔️ Improve logical thinking and problem-solving skills.
+
+✔️ Prepare for coding interviews.
+
+✔️ Strengthen Python fundamentals before diving deeper into DSA.
+
+✔️ Share my learning journey publicly and inspire others.
 
 ---
 
 # 🤝 Connect With Me
 
 ### 💼 LinkedIn
-🔗 **www.linkedin.com/in/krishna-solanke-4123972b6**
+
+🔗 https://www.linkedin.com/in/krishna-solanke-4123972b6
 
 ### 💻 GitHub
-🔗 **github.com/krishna570**
+
+🔗 https://github.com/krishna570
+
+### 🏆 HackerRank
+
+🔗 https://www.hackerrank.com/
 
 ---
 
@@ -139,4 +189,4 @@ Your support motivates me to continue learning, building, and sharing my progres
 
 # 🚀 Keep Coding • Keep Learning • Keep Growing
 
-> **"Consistency is the key to mastering programming."** 💙
+> **"Consistency is the key to mastering programming. One commit every day is a step closer to success."** 💙

@@ -21,6 +21,7 @@ This repository documents my journey of solving **Python** and **Data Structures
 | ✅ Day 7 | Swap Case | Completed |
 | ✅ Day 8 | String Split and Join | Completed |
 | ✅ Day 9 | What's Your Name?, Mutations | Completed |
+| ✅ Day 10 | Find a String, String Validators | Completed |
 
 ---
 
@@ -71,6 +72,11 @@ This repository documents my journey of solving **Python** and **Data Structures
 │   ├── Mutations.py
 │   └── README.md
 │
+├── Day-10/
+│   ├── Find_a_String.py
+│   ├── String_Validators.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -79,9 +85,9 @@ This repository documents my journey of solving **Python** and **Data Structures
 # 🎯 Challenge Goals
 
 - 🐍 Master Python Programming
-- 🧠 Strengthen Problem-Solving Skills
+- 🧠 Improve Problem-Solving Skills
 - 📚 Learn Data Structures & Algorithms
-- 💻 Build Consistent Coding Habits
+- 💻 Build Strong Coding Habits
 - 🚀 Prepare for Coding Interviews
 - 🌱 Learn in Public
 - 📈 Track My Daily Progress on GitHub
@@ -101,51 +107,59 @@ This repository documents my journey of solving **Python** and **Data Structures
 
 # 📖 About This Repository
 
-This repository serves as my personal coding journal where I upload my daily Python and DSA solutions from HackerRank.
+This repository is my **coding journal**, where I document my daily progress by solving Python and DSA challenges on HackerRank.
 
 Every commit reflects my commitment to becoming a better software developer through continuous learning, consistent practice, and disciplined problem-solving.
 
-My objective is not just to complete this 30-day challenge but to build a strong foundation for software development, coding interviews, and real-world programming.
+My objective is not only to complete this 30-day challenge but also to build a solid foundation for technical interviews, software engineering, and real-world programming.
 
 ---
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **9 / 30**
-- 💻 **Problems Solved:** **15+**
+- 📅 **Days Completed:** **10 / 30**
+- 💻 **Problems Solved:** **17+**
 - ⭐ **HackerRank Python:** **3 Stars**
 - 🎯 **Current Focus:** Python Strings
-- 🚀 **Next Milestone:** **Day 10**
+- 🚀 **Next Milestone:** **Day 11**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-█████████░░░░░░░░░░░░░ 9/30 Days Completed (30%)
+██████████░░░░░░░░░░░░ 10/30 Days Completed (33%)
 ```
 
 ---
 
 # 🏆 Skills Covered So Far
 
-- ✅ Python If-Else
+### Python Fundamentals
+- ✅ If-Else
 - ✅ Arithmetic Operators
-- ✅ Python Division
+- ✅ Division
 - ✅ Loops
 - ✅ Functions
 - ✅ Print Function
+
+### Lists
 - ✅ List Comprehensions
 - ✅ Lists
 - ✅ Nested Lists
 - ✅ Runner-Up Score
-- ✅ Dictionaries
+
+### Dictionaries
 - ✅ Average Calculation
-- ✅ String Methods
+
+### Strings
 - ✅ String Split & Join
+- ✅ String Methods
 - ✅ String Formatting
 - ✅ String Slicing
 - ✅ String Mutation
+- ✅ Find a String
+- ✅ String Validators
 
 ---
 
@@ -155,26 +169,36 @@ My objective is not just to complete this 30-day challenge but to build a strong
 
 ✔️ Improve logical thinking and problem-solving skills.
 
+✔️ Strengthen Python fundamentals.
+
 ✔️ Prepare for coding interviews.
 
-✔️ Strengthen Python fundamentals before diving deeper into DSA.
+✔️ Learn in public and document my progress.
 
-✔️ Share my learning journey publicly and inspire others.
+✔️ Build a strong GitHub portfolio.
+
+---
+
+# 🏅 Milestone Achieved
+
+🎉 **Day 10 Completed!**
+
+- ✅ 10 Days of Consistent Coding
+- ✅ 17+ HackerRank Problems Solved
+- ✅ Growing Python & DSA Skills
+- 🚀 Continuing Towards Day 30
 
 ---
 
 # 🤝 Connect With Me
 
 ### 💼 LinkedIn
-
 🔗 https://www.linkedin.com/in/krishna-solanke-4123972b6
 
 ### 💻 GitHub
-
 🔗 https://github.com/krishna570
 
 ### 🏆 HackerRank
-
 🔗 https://www.hackerrank.com/
 
 ---
@@ -183,10 +207,10 @@ My objective is not just to complete this 30-day challenge but to build a strong
 
 If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
 
-Your support motivates me to continue learning, building, and sharing my progress with the developer community.
+Your support motivates me to keep learning, building, and sharing my progress with the developer community.
 
 ---
 
 # 🚀 Keep Coding • Keep Learning • Keep Growing
 
-> **"Consistency is the key to mastering programming. One commit every day is a step closer to success."** 💙
+> **"Consistency is the key to mastery. Every commit is another step toward becoming a better developer."** 💙

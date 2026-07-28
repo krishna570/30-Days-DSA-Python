@@ -22,6 +22,7 @@ This repository documents my journey of solving **Python** and **Data Structures
 | ✅ Day 8 | String Split and Join | Completed |
 | ✅ Day 9 | What's Your Name?, Mutations | Completed |
 | ✅ Day 10 | Find a String, String Validators | Completed |
+| ✅ Day 11 | Text Alignment | Completed |
 
 ---
 
@@ -77,6 +78,10 @@ This repository documents my journey of solving **Python** and **Data Structures
 │   ├── String_Validators.py
 │   └── README.md
 │
+├── Day-11/
+│   ├── Text_Alignment.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -117,18 +122,18 @@ My objective is not only to complete this 30-day challenge but also to build a s
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **10 / 30**
-- 💻 **Problems Solved:** **17+**
+- 📅 **Days Completed:** **11 / 30**
+- 💻 **Problems Solved:** **18+**
 - ⭐ **HackerRank Python:** **3 Stars**
-- 🎯 **Current Focus:** Python Strings
-- 🚀 **Next Milestone:** **Day 11**
+- 🎯 **Current Focus:** Python String Formatting & Alignment
+- 🚀 **Next Milestone:** **Day 12**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-██████████░░░░░░░░░░░░ 10/30 Days Completed (33%)
+███████████░░░░░░░░░░░ 11/30 Days Completed (37%)
 ```
 
 ---
@@ -160,6 +165,7 @@ My objective is not only to complete this 30-day challenge but also to build a s
 - ✅ String Mutation
 - ✅ Find a String
 - ✅ String Validators
+- ✅ Text Alignment
 
 ---
 
@@ -181,11 +187,12 @@ My objective is not only to complete this 30-day challenge but also to build a s
 
 # 🏅 Milestone Achieved
 
-🎉 **Day 10 Completed!**
+🎉 **Day 11 Completed!**
 
-- ✅ 10 Days of Consistent Coding
-- ✅ 17+ HackerRank Problems Solved
-- ✅ Growing Python & DSA Skills
+- ✅ 11 Days of Consistent Coding
+- ✅ 18+ HackerRank Problems Solved
+- ✅ Improved Python String Manipulation Skills
+- ✅ Learned Text Alignment (`ljust()`, `rjust()`, `center()`)
 - 🚀 Continuing Towards Day 30
 
 ---

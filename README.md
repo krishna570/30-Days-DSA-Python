@@ -2,16 +2,16 @@
 
 Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository documents my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. My goal is to strengthen my programming skills, improve problem-solving abilities, and build the habit of coding consistently every day.
+This repository showcases my journey of solving **Python** and **Data Structures & Algorithms (DSA)** problems on **HackerRank**. Through this challenge, I aim to improve my programming fundamentals, strengthen problem-solving skills, and build the habit of coding consistently every day.
 
-> 💡 **"Small steps every day lead to big achievements tomorrow."**
+> 💡 **"Consistency beats intensity. One step every day leads to extraordinary results."**
 
 ---
 
 # 📅 Challenge Progress
 
-| Day | Problems Solved | Status |
-|:---:|-----------------|:------:|
+| Day | Topics Covered | Status |
+|:---:|----------------|:------:|
 | ✅ Day 1 | Python If-Else | Completed |
 | ✅ Day 2 | Arithmetic Operators, Python Division, Loops | Completed |
 | ✅ Day 3 | Write a Function, Print Function | Completed |
@@ -23,6 +23,7 @@ This repository documents my journey of solving **Python** and **Data Structures
 | ✅ Day 9 | What's Your Name?, Mutations | Completed |
 | ✅ Day 10 | Find a String, String Validators | Completed |
 | ✅ Day 11 | Text Alignment | Completed |
+| ✅ Day 12 | Text Wrap | Completed |
 
 ---
 
@@ -32,58 +33,25 @@ This repository documents my journey of solving **Python** and **Data Structures
 30-Days-DSA-Python/
 │
 ├── Day-01/
-│   ├── Python_If_Else.py
-│   └── README.md
-│
 ├── Day-02/
-│   ├── Arithmetic_Operators.py
-│   ├── Python_Division.py
-│   ├── Loops.py
-│   └── README.md
-│
 ├── Day-03/
-│   ├── Write_a_Function.py
-│   ├── Print_Function.py
-│   └── README.md
-│
 ├── Day-04/
-│   ├── List_Comprehensions.py
-│   ├── Runner_Up_Score.py
-│   └── README.md
-│
 ├── Day-05/
-│   ├── Nested_Lists.py
-│   ├── Finding_the_Percentage.py
-│   └── README.md
-│
 ├── Day-06/
-│   ├── Lists.py
-│   └── README.md
-│
 ├── Day-07/
-│   ├── Swap_Case.py
-│   └── README.md
-│
 ├── Day-08/
-│   ├── String_Split_and_Join.py
-│   └── README.md
-│
 ├── Day-09/
-│   ├── Whats_Your_Name.py
-│   ├── Mutations.py
-│   └── README.md
-│
 ├── Day-10/
-│   ├── Find_a_String.py
-│   ├── String_Validators.py
-│   └── README.md
-│
 ├── Day-11/
-│   ├── Text_Alignment.py
-│   └── README.md
-│
+├── Day-12/
 └── README.md
 ```
+
+Each day's folder contains:
+
+- 📄 Python solution(s)
+- 📝 README (where applicable)
+- 💡 Clean and beginner-friendly code
 
 ---
 
@@ -95,8 +63,8 @@ This repository documents my journey of solving **Python** and **Data Structures
 - 💻 Build Strong Coding Habits
 - 🚀 Prepare for Coding Interviews
 - 🌱 Learn in Public
-- 📈 Track My Daily Progress on GitHub
-- ⭐ Earn Higher HackerRank Badges
+- 📈 Maintain Daily GitHub Contributions
+- ⭐ Achieve a 5-Star HackerRank Python Badge
 
 ---
 
@@ -112,35 +80,42 @@ This repository documents my journey of solving **Python** and **Data Structures
 
 # 📖 About This Repository
 
-This repository is my **coding journal**, where I document my daily progress by solving Python and DSA challenges on HackerRank.
+This repository serves as my personal coding journal, documenting my progress throughout the **30-Day DSA & Python Challenge**.
 
-Every commit reflects my commitment to becoming a better software developer through continuous learning, consistent practice, and disciplined problem-solving.
+Each solution is written by me while learning Python concepts and improving my logical thinking. Instead of only focusing on completing problems, I aim to understand the underlying concepts and write clean, readable, and efficient code.
 
-My objective is not only to complete this 30-day challenge but also to build a solid foundation for technical interviews, software engineering, and real-world programming.
+This journey is helping me prepare for:
+
+- 💼 Software Development Roles
+- 🎯 Coding Interviews
+- 📚 Advanced DSA Learning
+- 🚀 Real-World Programming Projects
 
 ---
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **11 / 30**
-- 💻 **Problems Solved:** **18+**
-- ⭐ **HackerRank Python:** **3 Stars**
-- 🎯 **Current Focus:** Python String Formatting & Alignment
-- 🚀 **Next Milestone:** **Day 12**
+- 📅 **Days Completed:** **12 / 30**
+- 💻 **Problems Solved:** **20+**
+- ⭐ **HackerRank Python:** **3⭐**
+- 🧩 **Latest Topic:** Text Wrap
+- 🎯 **Current Focus:** Python String Manipulation
+- 🚀 **Next Milestone:** **Day 13**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-███████████░░░░░░░░░░░ 11/30 Days Completed (37%)
+████████████░░░░░░░░░░ 12/30 Days Completed (40%)
 ```
 
 ---
 
-# 🏆 Skills Covered So Far
+# 🏆 Python Concepts Covered
 
-### Python Fundamentals
+### 🐍 Python Basics
+
 - ✅ If-Else
 - ✅ Arithmetic Operators
 - ✅ Division
@@ -148,76 +123,116 @@ My objective is not only to complete this 30-day challenge but also to build a s
 - ✅ Functions
 - ✅ Print Function
 
-### Lists
+### 📋 Lists
+
 - ✅ List Comprehensions
 - ✅ Lists
 - ✅ Nested Lists
 - ✅ Runner-Up Score
 
-### Dictionaries
+### 📖 Dictionaries
+
 - ✅ Average Calculation
 
-### Strings
+### 🔤 Strings
+
 - ✅ String Split & Join
-- ✅ String Methods
-- ✅ String Formatting
+- ✅ String Manipulation
 - ✅ String Slicing
 - ✅ String Mutation
 - ✅ Find a String
 - ✅ String Validators
 - ✅ Text Alignment
+- ✅ Text Wrap
 
 ---
 
 # 🌟 Why This Challenge?
 
-✔️ Build consistency through daily coding.
+✔️ Build discipline through consistent coding.
 
-✔️ Improve logical thinking and problem-solving skills.
+✔️ Improve logical thinking.
 
 ✔️ Strengthen Python fundamentals.
 
-✔️ Prepare for coding interviews.
+✔️ Prepare for technical interviews.
 
-✔️ Learn in public and document my progress.
+✔️ Share my learning journey publicly.
 
-✔️ Build a strong GitHub portfolio.
+✔️ Build a professional GitHub portfolio.
 
 ---
 
-# 🏅 Milestone Achieved
+# 🏅 Milestones Achieved
 
-🎉 **Day 11 Completed!**
+### 🎉 Day 12 Completed!
 
-- ✅ 11 Days of Consistent Coding
-- ✅ 18+ HackerRank Problems Solved
-- ✅ Improved Python String Manipulation Skills
-- ✅ Learned Text Alignment (`ljust()`, `rjust()`, `center()`)
-- 🚀 Continuing Towards Day 30
+- ✅ 12 Consecutive Days of Coding
+- ✅ 20+ HackerRank Problems Solved
+- ✅ Strong Understanding of Python Strings
+- ✅ Learned Text Alignment
+- ✅ Learned Text Wrapping Using String Slicing
+- ✅ Improved Code Readability and Logic Building
+
+---
+
+# 📌 Upcoming Topics
+
+- 🔹 String Formatting
+- 🔹 Capitalize
+- 🔹 Minion Game
+- 🔹 Merge the Tools
+- 🔹 Sets
+- 🔹 Collections
+- 🔹 Built-in Functions
+
+---
+
+# 📈 My Learning Journey
+
+```text
+Day 01  ████████████████████
+Day 02  ████████████████████
+Day 03  ████████████████████
+Day 04  ████████████████████
+Day 05  ████████████████████
+Day 06  ████████████████████
+Day 07  ████████████████████
+Day 08  ████████████████████
+Day 09  ████████████████████
+Day 10  ████████████████████
+Day 11  ████████████████████
+Day 12  ████████████████████
+```
 
 ---
 
 # 🤝 Connect With Me
 
 ### 💼 LinkedIn
+
 🔗 https://www.linkedin.com/in/krishna-solanke-4123972b6
 
 ### 💻 GitHub
+
 🔗 https://github.com/krishna570
 
 ### 🏆 HackerRank
-🔗 https://www.hackerrank.com/
+
+🔗 https://www.hackerrank.com/krishna570
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
+If you enjoy following my learning journey or find this repository helpful, consider giving it a **⭐ Star**.
 
-Your support motivates me to keep learning, building, and sharing my progress with the developer community.
+Every star motivates me to continue learning, building, and sharing my progress with the developer community.
 
 ---
 
-# 🚀 Keep Coding • Keep Learning • Keep Growing
+# 🚀 Let's Connect and Grow Together!
 
-> **"Consistency is the key to mastery. Every commit is another step toward becoming a better developer."** 💙
+> **"Every line of code I write today brings me one step closer to becoming a better software engineer tomorrow."** 💙
+
+### ⭐ Happy Coding! 🚀

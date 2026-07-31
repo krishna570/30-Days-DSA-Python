@@ -2,9 +2,9 @@
 
 Welcome to my **30 Days DSA & Python Challenge!** 🎯
 
-This repository showcases my journey of solving **Python** and **Data Structures & Algorithms (DSA)** problems on **HackerRank**. Through this challenge, I aim to improve my programming fundamentals, strengthen my problem-solving skills, and build the habit of coding consistently every day.
+This repository documents my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. Through this challenge, I aim to strengthen my programming fundamentals, improve my problem-solving skills, and build the habit of coding consistently every day.
 
-> 💡 **"Consistency beats intensity. One step every day leads to extraordinary results."**
+> 💡 **"Consistency beats intensity. Small progress every day leads to extraordinary results."**
 
 ---
 
@@ -25,6 +25,7 @@ This repository showcases my journey of solving **Python** and **Data Structures
 | ✅ Day 11 | Text Alignment                                 | Completed |
 | ✅ Day 12 | Text Wrap                                      | Completed |
 | ✅ Day 13 | Designer Door Mat                              | Completed |
+| ✅ Day 14 | String Formatting                              | Completed |
 
 ---
 
@@ -46,14 +47,15 @@ This repository showcases my journey of solving **Python** and **Data Structures
 ├── Day-11/
 ├── Day-12/
 ├── Day-13/
+├── Day-14/
 └── README.md
 ```
 
 Each day's folder contains:
 
 * 📄 Python solution(s)
-* 📝 README (where applicable)
-* 💡 Clean, beginner-friendly, and well-commented code
+* 📝 Problem statement (where applicable)
+* 💡 Clean, beginner-friendly, and well-structured code
 
 ---
 
@@ -82,41 +84,41 @@ Each day's folder contains:
 
 # 📖 About This Repository
 
-This repository serves as my personal coding journal, documenting my progress throughout the **30-Day DSA & Python Challenge**.
+This repository is my personal coding journal, where I share my progress throughout the **30 Days DSA & Python Challenge**.
 
-Every solution is written while learning Python concepts, strengthening logical thinking, and improving coding practices. Rather than simply completing challenges, my focus is on understanding the concepts, writing clean code, and continuously improving.
+Every solution represents another step in my learning journey. My goal is not just to solve problems but to understand the underlying concepts, write clean and readable code, and continuously improve as a programmer.
 
-This journey is helping me prepare for:
+Through this challenge, I am preparing for:
 
 * 💼 Software Development Roles
-* 🎯 Coding Interviews
-* 📚 Advanced DSA Learning
-* 🚀 Real-World Programming Projects
+* 🎯 Technical Coding Interviews
+* 📚 Advanced Data Structures & Algorithms
+* 🚀 Real-World Software Projects
 
 ---
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **13 / 30**
-* 💻 **Problems Solved:** **21+**
+* 📅 **Days Completed:** **14 / 30**
+* 💻 **Problems Solved:** **22+**
 * ⭐ **HackerRank Python:** **3⭐**
-* 🧩 **Latest Topic:** Designer Door Mat
-* 🎯 **Current Focus:** Python Pattern Printing & String Formatting
-* 🚀 **Next Milestone:** **Day 14**
+* 🧩 **Latest Topic:** String Formatting
+* 🎯 **Current Focus:** Python String Manipulation & Number Formatting
+* 🚀 **Next Milestone:** **Day 15**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-█████████████░░░░░░░░░ 13/30 Days Completed (43%)
+██████████████░░░░░░░░ 14/30 Days Completed (47%)
 ```
 
 ---
 
 # 🏆 Python Concepts Covered
 
-### 🐍 Python Basics
+## 🐍 Python Basics
 
 * ✅ If-Else
 * ✅ Arithmetic Operators
@@ -125,18 +127,18 @@ This journey is helping me prepare for:
 * ✅ Functions
 * ✅ Print Function
 
-### 📋 Lists
+## 📋 Lists
 
 * ✅ List Comprehensions
 * ✅ Lists
 * ✅ Nested Lists
 * ✅ Runner-Up Score
 
-### 📖 Dictionaries
+## 📖 Dictionaries
 
-* ✅ Average Calculation
+* ✅ Finding the Percentage
 
-### 🔤 Strings
+## 🔤 Strings
 
 * ✅ String Split & Join
 * ✅ String Manipulation
@@ -146,20 +148,21 @@ This journey is helping me prepare for:
 * ✅ String Validators
 * ✅ Text Alignment
 * ✅ Text Wrap
+* ✅ String Formatting
 
-### 🎨 Pattern Printing
+## 🎨 Pattern Printing
 
 * ✅ Designer Door Mat
-* ✅ String Center Alignment
+* ✅ Center Alignment
 * ✅ Pattern Generation Using Loops
 
 ---
 
 # 🌟 Why This Challenge?
 
-✔️ Build discipline through consistent coding.
+✔️ Build discipline through daily coding.
 
-✔️ Improve logical thinking.
+✔️ Improve logical thinking and problem-solving.
 
 ✔️ Strengthen Python fundamentals.
 
@@ -173,26 +176,27 @@ This journey is helping me prepare for:
 
 # 🏅 Milestones Achieved
 
-### 🎉 Day 13 Completed!
+## 🎉 Day 14 Completed!
 
-* ✅ 13 Consecutive Days of Coding
-* ✅ 21+ HackerRank Problems Solved
-* ✅ Improved Pattern Printing Skills
-* ✅ Learned String Center Alignment
-* ✅ Practiced Nested Loops & Mathematical Patterns
-* ✅ Enhanced Logical Thinking and Problem Solving
+* ✅ 14 Consecutive Days of Coding
+* ✅ 22+ HackerRank Problems Solved
+* ✅ Learned Number Formatting in Python
+* ✅ Practiced Binary, Octal, Decimal & Hexadecimal Conversions
+* ✅ Improved Python Formatting Skills
+* ✅ Enhanced Problem-Solving and Logical Thinking
 
 ---
 
 # 📌 Upcoming Topics
 
-* 🔹 String Formatting
 * 🔹 Capitalize!
 * 🔹 The Minion Game
 * 🔹 Merge the Tools!
 * 🔹 Sets
 * 🔹 Collections
 * 🔹 Built-in Functions
+* 🔹 Exceptions
+* 🔹 Itertools
 
 ---
 
@@ -212,23 +216,24 @@ Day 10  ████████████████████
 Day 11  ████████████████████
 Day 12  ████████████████████
 Day 13  ████████████████████
+Day 14  ████████████████████
 ```
 
 ---
 
 # 🤝 Connect With Me
 
-### 💼 LinkedIn
+## 💼 LinkedIn
 
-🔗 https://www.linkedin.com/in/krishna-solanke-4123972b6
+🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6**
 
-### 💻 GitHub
+## 💻 GitHub
 
-🔗 https://github.com/krishna570
+🔗 **https://github.com/krishna570**
 
-### 🏆 HackerRank
+## 🏆 HackerRank
 
-🔗 https://www.hackerrank.com/krishna570
+🔗 **https://www.hackerrank.com/krishna570**
 
 ---
 

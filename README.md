@@ -1,13 +1,3 @@
-# 🚀 30 Days DSA & Python Challenge
-
-Welcome to my **30 Days DSA & Python Challenge!** 🎯
-
-This repository documents my journey of solving **Python** and **Data Structures & Algorithms (DSA)** challenges on **HackerRank**. Through this challenge, I aim to strengthen my programming fundamentals, improve my problem-solving skills, and build the habit of coding consistently every day.
-
-> 💡 **"Consistency beats intensity. Small progress every day leads to extraordinary results."**
-
----
-
 # 📅 Challenge Progress
 
 |    Day   | Topics Covered                                 |   Status  |
@@ -26,6 +16,7 @@ This repository documents my journey of solving **Python** and **Data Structures
 | ✅ Day 12 | Text Wrap                                      | Completed |
 | ✅ Day 13 | Designer Door Mat                              | Completed |
 | ✅ Day 14 | String Formatting                              | Completed |
+| ✅ Day 15 | Capitalize!                                    | Completed |
 
 ---
 
@@ -48,70 +39,27 @@ This repository documents my journey of solving **Python** and **Data Structures
 ├── Day-12/
 ├── Day-13/
 ├── Day-14/
+├── Day-15/
 └── README.md
 ```
-
-Each day's folder contains:
-
-* 📄 Python solution(s)
-* 📝 Problem statement (where applicable)
-* 💡 Clean, beginner-friendly, and well-structured code
-
----
-
-# 🎯 Challenge Goals
-
-* 🐍 Master Python Programming
-* 🧠 Improve Problem-Solving Skills
-* 📚 Learn Data Structures & Algorithms
-* 💻 Build Strong Coding Habits
-* 🚀 Prepare for Coding Interviews
-* 🌱 Learn in Public
-* 📈 Maintain Daily GitHub Contributions
-* ⭐ Achieve a 5-Star HackerRank Python Badge
-
----
-
-# 🛠️ Tech Stack
-
-* 🐍 Python 3
-* 💻 Visual Studio Code
-* 🌱 Git
-* 🚀 GitHub
-* 🏆 HackerRank
-
----
-
-# 📖 About This Repository
-
-This repository is my personal coding journal, where I share my progress throughout the **30 Days DSA & Python Challenge**.
-
-Every solution represents another step in my learning journey. My goal is not just to solve problems but to understand the underlying concepts, write clean and readable code, and continuously improve as a programmer.
-
-Through this challenge, I am preparing for:
-
-* 💼 Software Development Roles
-* 🎯 Technical Coding Interviews
-* 📚 Advanced Data Structures & Algorithms
-* 🚀 Real-World Software Projects
 
 ---
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **14 / 30**
-* 💻 **Problems Solved:** **22+**
+* 📅 **Days Completed:** **15 / 30**
+* 💻 **Problems Solved:** **23+**
 * ⭐ **HackerRank Python:** **3⭐**
-* 🧩 **Latest Topic:** String Formatting
-* 🎯 **Current Focus:** Python String Manipulation & Number Formatting
-* 🚀 **Next Milestone:** **Day 15**
+* 🧩 **Latest Topic:** Capitalize!
+* 🎯 **Current Focus:** Python String Manipulation & String Processing
+* 🚀 **Next Milestone:** **Day 16**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-██████████████░░░░░░░░ 14/30 Days Completed (47%)
+███████████████░░░░░░░ 15/30 Days Completed (50%)
 ```
 
 ---
@@ -149,6 +97,7 @@ Through this challenge, I am preparing for:
 * ✅ Text Alignment
 * ✅ Text Wrap
 * ✅ String Formatting
+* ✅ Capitalize!
 
 ## 🎨 Pattern Printing
 
@@ -158,38 +107,23 @@ Through this challenge, I am preparing for:
 
 ---
 
-# 🌟 Why This Challenge?
-
-✔️ Build discipline through daily coding.
-
-✔️ Improve logical thinking and problem-solving.
-
-✔️ Strengthen Python fundamentals.
-
-✔️ Prepare for technical interviews.
-
-✔️ Share my learning journey publicly.
-
-✔️ Build a professional GitHub portfolio.
-
----
-
 # 🏅 Milestones Achieved
 
-## 🎉 Day 14 Completed!
+## 🎉 Day 15 Completed!
 
-* ✅ 14 Consecutive Days of Coding
-* ✅ 22+ HackerRank Problems Solved
-* ✅ Learned Number Formatting in Python
-* ✅ Practiced Binary, Octal, Decimal & Hexadecimal Conversions
-* ✅ Improved Python Formatting Skills
-* ✅ Enhanced Problem-Solving and Logical Thinking
+* ✅ 15 Consecutive Days of Coding
+* ✅ 23+ HackerRank Problems Solved
+* ✅ Solved the **Capitalize!** challenge
+* ✅ Practiced String Splitting and Joining
+* ✅ Learned Character Indexing and `upper()`
+* ✅ Used Lists, Loops, `append()`, and `join()`
+* ✅ Learned to Preserve Multiple Spaces in Strings
+* ✅ Improved Problem-Solving and Debugging Skills
 
 ---
 
 # 📌 Upcoming Topics
 
-* 🔹 Capitalize!
 * 🔹 The Minion Game
 * 🔹 Merge the Tools!
 * 🔹 Sets
@@ -217,36 +151,6 @@ Day 11  ████████████████████
 Day 12  ████████████████████
 Day 13  ████████████████████
 Day 14  ████████████████████
+Day 15  ████████████████████
 ```
-
----
-
-# 🤝 Connect With Me
-
-## 💼 LinkedIn
-
-🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6**
-
-## 💻 GitHub
-
-🔗 **https://github.com/krishna570**
-
-## 🏆 HackerRank
-
-🔗 **https://www.hackerrank.com/krishna570**
-
----
-
-# ⭐ Support
-
-If you enjoy following my learning journey or find this repository helpful, consider giving it a **⭐ Star**.
-
-Every star motivates me to continue learning, building, and sharing my progress with the developer community.
-
----
-
-# 🚀 Let's Connect and Grow Together!
-
-> **"Every line of code I write today brings me one step closer to becoming a better software engineer tomorrow."** 💙
-
-### ⭐ Happy Coding! 🚀
+# 🤝 Connect With Me ## 💼 LinkedIn 🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6** ## 💻 GitHub 🔗 **https://github.com/krishna570** ## 🏆 HackerRank 🔗 **https://www.hackerrank.com/krishna570** --- # ⭐ Support If you enjoy following my learning journey or find this repository helpful, consider giving it a **⭐ Star**. Every star motivates me to continue learning, building, and sharing my progress with the developer community. --- # 🚀 Let's Connect and Grow Together! > **"Every line of code I write today brings me one step closer to becoming a better software engineer tomorrow."** 💙 ### ⭐ Happy Coding! 🚀 edit the whole for me day 15 challange Capitalize!

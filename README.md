@@ -17,6 +17,7 @@
 | ✅ Day 13 | Designer Door Mat                              | Completed |
 | ✅ Day 14 | String Formatting                              | Completed |
 | ✅ Day 15 | Capitalize!                                    | Completed |
+| ✅ Day 16 | The Minion Game                                | Completed |
 
 ---
 
@@ -40,6 +41,7 @@
 ├── Day-13/
 ├── Day-14/
 ├── Day-15/
+├── Day-16/
 └── README.md
 ```
 
@@ -47,19 +49,19 @@
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **15 / 30**
-* 💻 **Problems Solved:** **23+**
+* 📅 **Days Completed:** **16 / 30**
+* 💻 **Problems Solved:** **24+**
 * ⭐ **HackerRank Python:** **3⭐**
-* 🧩 **Latest Topic:** Capitalize!
-* 🎯 **Current Focus:** Python String Manipulation & String Processing
-* 🚀 **Next Milestone:** **Day 16**
+* 🧩 **Latest Topic:** **The Minion Game**
+* 🎯 **Current Focus:** String Algorithms & Optimized Problem Solving
+* 🚀 **Next Milestone:** **Day 17**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-███████████████░░░░░░░ 15/30 Days Completed (50%)
+████████████████░░░░░░ 16/30 Days Completed (53%)
 ```
 
 ---
@@ -98,6 +100,7 @@
 * ✅ Text Wrap
 * ✅ String Formatting
 * ✅ Capitalize!
+* ✅ The Minion Game
 
 ## 🎨 Pattern Printing
 
@@ -105,32 +108,40 @@
 * ✅ Center Alignment
 * ✅ Pattern Generation Using Loops
 
+## 🧠 Problem Solving
+
+* ✅ Optimized String Processing
+* ✅ Substring Counting Technique
+* ✅ Index-Based Scoring
+* ✅ Time Complexity Optimization (O(n))
+* ✅ Vowel & Consonant Classification
+
 ---
 
 # 🏅 Milestones Achieved
 
-## 🎉 Day 15 Completed!
+## 🎉 Day 16 Completed!
 
-* ✅ 15 Consecutive Days of Coding
-* ✅ 23+ HackerRank Problems Solved
-* ✅ Solved the **Capitalize!** challenge
-* ✅ Practiced String Splitting and Joining
-* ✅ Learned Character Indexing and `upper()`
-* ✅ Used Lists, Loops, `append()`, and `join()`
-* ✅ Learned to Preserve Multiple Spaces in Strings
-* ✅ Improved Problem-Solving and Debugging Skills
+* ✅ 16 Consecutive Days of Coding
+* ✅ 24+ HackerRank Problems Solved
+* ✅ Solved the **The Minion Game** challenge
+* ✅ Learned an **O(n)** optimized approach instead of generating all substrings
+* ✅ Practiced String Traversal using Indexes
+* ✅ Used Conditional Logic for Vowel and Consonant Classification
+* ✅ Improved Algorithmic Thinking and Optimization Skills
+* ✅ Strengthened Problem-Solving and Debugging Skills
 
 ---
 
 # 📌 Upcoming Topics
 
-* 🔹 The Minion Game
 * 🔹 Merge the Tools!
 * 🔹 Sets
 * 🔹 Collections
 * 🔹 Built-in Functions
 * 🔹 Exceptions
 * 🔹 Itertools
+* 🔹 Functional Programming
 
 ---
 
@@ -152,5 +163,35 @@ Day 12  ████████████████████
 Day 13  ████████████████████
 Day 14  ████████████████████
 Day 15  ████████████████████
+Day 16  ████████████████████
 ```
-# 🤝 Connect With Me ## 💼 LinkedIn 🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6** ## 💻 GitHub 🔗 **https://github.com/krishna570** ## 🏆 HackerRank 🔗 **https://www.hackerrank.com/krishna570** --- # ⭐ Support If you enjoy following my learning journey or find this repository helpful, consider giving it a **⭐ Star**. Every star motivates me to continue learning, building, and sharing my progress with the developer community. --- # 🚀 Let's Connect and Grow Together! > **"Every line of code I write today brings me one step closer to becoming a better software engineer tomorrow."** 💙 ### ⭐ Happy Coding! 🚀 edit the whole for me day 15 challange Capitalize!
+
+---
+
+# 🤝 Connect With Me
+
+## 💼 LinkedIn
+
+🔗 **https://www.linkedin.com/in/krishna-solanke-4123972b6**
+
+## 💻 GitHub
+
+🔗 **https://github.com/krishna570**
+
+## 🏆 HackerRank
+
+🔗 **https://www.hackerrank.com/krishna570**
+
+---
+
+# ⭐ Support
+
+If you enjoy following my learning journey or find this repository helpful, consider giving it a **⭐ Star**. Every star motivates me to continue learning, building, and sharing my progress with the developer community.
+
+---
+
+# 🚀 Let's Connect and Grow Together!
+
+> **"Every coding challenge I solve strengthens my logic, sharpens my problem-solving skills, and brings me one step closer to becoming a software engineer."** 💙
+
+### ⭐ Happy Coding! 🚀

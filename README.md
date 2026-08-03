@@ -1,7 +1,7 @@
 # 📅 Challenge Progress
 
-|    Day   | Topics Covered                                 |   Status  |
-| :------: | ---------------------------------------------- | :-------: |
+|    Day    | Topics Covered                                 |   Status   |
+| :-------: | ---------------------------------------------- | :--------: |
 |  ✅ Day 1 | Python If-Else                                 | Completed |
 |  ✅ Day 2 | Arithmetic Operators, Python Division, Loops   | Completed |
 |  ✅ Day 3 | Write a Function, Print Function               | Completed |
@@ -18,6 +18,7 @@
 | ✅ Day 14 | String Formatting                              | Completed |
 | ✅ Day 15 | Capitalize!                                    | Completed |
 | ✅ Day 16 | The Minion Game                                | Completed |
+| ✅ Day 17 | Merge the Tools!                               | Completed |
 
 ---
 
@@ -42,6 +43,7 @@
 ├── Day-14/
 ├── Day-15/
 ├── Day-16/
+├── Day-17/
 └── README.md
 ```
 
@@ -49,19 +51,19 @@
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **16 / 30**
-* 💻 **Problems Solved:** **24+**
+* 📅 **Days Completed:** **17 / 30**
+* 💻 **Problems Solved:** **25+**
 * ⭐ **HackerRank Python:** **3⭐**
-* 🧩 **Latest Topic:** **The Minion Game**
-* 🎯 **Current Focus:** String Algorithms & Optimized Problem Solving
-* 🚀 **Next Milestone:** **Day 17**
+* 🧩 **Latest Topic:** **Merge the Tools!**
+* 🎯 **Current Focus:** String Processing & Python Built-in Functions
+* 🚀 **Next Milestone:** **Day 18**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-████████████████░░░░░░ 16/30 Days Completed (53%)
+█████████████████░░░░░ 17/30 Days Completed (57%)
 ```
 
 ---
@@ -101,6 +103,7 @@
 * ✅ String Formatting
 * ✅ Capitalize!
 * ✅ The Minion Game
+* ✅ Merge the Tools!
 
 ## 🎨 Pattern Printing
 
@@ -115,33 +118,37 @@
 * ✅ Index-Based Scoring
 * ✅ Time Complexity Optimization (O(n))
 * ✅ Vowel & Consonant Classification
+* ✅ String Partitioning
+* ✅ Duplicate Character Removal
+* ✅ Ordered Character Processing
 
 ---
 
 # 🏅 Milestones Achieved
 
-## 🎉 Day 16 Completed!
+## 🎉 Day 17 Completed!
 
-* ✅ 16 Consecutive Days of Coding
-* ✅ 24+ HackerRank Problems Solved
-* ✅ Solved the **The Minion Game** challenge
-* ✅ Learned an **O(n)** optimized approach instead of generating all substrings
-* ✅ Practiced String Traversal using Indexes
-* ✅ Used Conditional Logic for Vowel and Consonant Classification
-* ✅ Improved Algorithmic Thinking and Optimization Skills
-* ✅ Strengthened Problem-Solving and Debugging Skills
+* ✅ 17 Consecutive Days of Coding
+* ✅ 25+ HackerRank Problems Solved
+* ✅ Solved the **Merge the Tools!** challenge
+* ✅ Practiced String Partitioning Techniques
+* ✅ Learned Duplicate Character Removal while Preserving Order
+* ✅ Improved String Traversal and Index Manipulation
+* ✅ Strengthened Algorithmic Thinking
+* ✅ Enhanced Problem-Solving and Debugging Skills
+* ✅ Continued Building Daily Coding Consistency
 
 ---
 
 # 📌 Upcoming Topics
 
-* 🔹 Merge the Tools!
 * 🔹 Sets
 * 🔹 Collections
 * 🔹 Built-in Functions
 * 🔹 Exceptions
 * 🔹 Itertools
 * 🔹 Functional Programming
+* 🔹 Regular Expressions
 
 ---
 
@@ -164,6 +171,7 @@ Day 13  ████████████████████
 Day 14  ████████████████████
 Day 15  ████████████████████
 Day 16  ████████████████████
+Day 17  ████████████████████
 ```
 
 ---

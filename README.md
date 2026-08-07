@@ -20,8 +20,9 @@
 | ✅ Day 16 | The Minion Game                                        | Completed |
 | ✅ Day 17 | Merge the Tools!                                       | Completed |
 | ✅ Day 18 | itertools.product()                                    | Completed |
-| ✅ Day 19 | collections.Counter() (Shoe Shop Inventory Management) | Completed |
-| ✅ Day 20 | collections.defaultdict() (DefaultDict Tutorial)       | Completed |
+| ✅ Day 19 | collections.Counter()                                  | Completed |
+| ✅ Day 20 | collections.defaultdict()                              | Completed |
+| ✅ Day 21 | itertools.permutations()                               | Completed |
 
 ---
 
@@ -50,6 +51,7 @@
 ├── Day-18/
 ├── Day-19/
 ├── Day-20/
+├── Day-21/
 └── README.md
 ```
 
@@ -57,19 +59,19 @@
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **20 / 30**
-- 💻 **Problems Solved:** **28+**
+- 📅 **Days Completed:** **21 / 30**
+- 💻 **Problems Solved:** **29+**
 - ⭐ **HackerRank Python:** **4⭐**
-- 📦 **Latest Topic:** **collections.defaultdict()**
-- 🎯 **Current Focus:** Python Collections & Efficient Dictionary Mapping
-- 🚀 **Next Milestone:** **Day 21**
+- 📦 **Latest Topic:** **itertools.permutations()**
+- 🎯 **Current Focus:** Python Itertools & Combinatorics
+- 🚀 **Next Milestone:** **Day 22**
 
 ---
 
 # 📈 Challenge Status
 
 ```text
-████████████████████░░ 20/30 Days Completed (67%)
+█████████████████████░ 21/30 Days Completed (70%)
 ```
 
 ---
@@ -121,7 +123,9 @@
 ## 🔄 Python Itertools
 
 - ✅ itertools.product()
+- ✅ itertools.permutations()
 - ✅ Cartesian Product Generation
+- ✅ Permutation Generation
 - ✅ Tuple Iteration
 - ✅ Efficient Combinatorial Operations
 
@@ -142,6 +146,7 @@
 - ✅ Duplicate Character Removal
 - ✅ Ordered Character Processing
 - ✅ Cartesian Product Generation
+- ✅ Permutation Generation
 - ✅ Python Standard Library Usage
 - ✅ Frequency Counting Using Counter
 - ✅ Inventory Simulation
@@ -151,30 +156,30 @@
 - ✅ Index Tracking
 - ✅ Default Value Handling
 - ✅ Data Grouping Techniques
+- ✅ Combinatorial Problem Solving
 
 ---
 
 # 🏅 Milestones Achieved
 
-## 🎉 Day 20 Completed!
+## 🎉 Day 21 Completed!
 
-- ✅ 20 Consecutive Days of Coding
-- ✅ 28+ HackerRank Problems Solved
-- ✅ Solved the **Collections.DefaultDict() Tutorial**
-- ✅ Learned how to use Python's **collections.defaultdict**
-- ✅ Implemented efficient group mapping
-- ✅ Stored multiple values under a single key
-- ✅ Learned automatic default value initialization
-- ✅ Improved dictionary manipulation skills
-- ✅ Strengthened problem-solving and debugging abilities
+- ✅ 21 Consecutive Days of Coding
+- ✅ 29+ HackerRank Problems Solved
+- ✅ Solved the **itertools.permutations()** challenge
+- ✅ Learned how to generate ordered permutations
+- ✅ Understood the difference between products, permutations, and combinations
+- ✅ Practiced Python's built-in **itertools** module
+- ✅ Improved algorithmic thinking
+- ✅ Strengthened problem-solving skills
 - ✅ Continued building coding consistency
 
 ---
 
 # 📌 Upcoming Topics
 
-- 🔹 itertools.permutations()
 - 🔹 itertools.combinations()
+- 🔹 itertools.combinations_with_replacement()
 - 🔹 Sets
 - 🔹 More Collections
 - 🔹 Built-in Functions
@@ -207,6 +212,7 @@ Day 17  ████████████████████
 Day 18  ████████████████████
 Day 19  ████████████████████
 Day 20  ████████████████████
+Day 21  ████████████████████
 ```
 
 ---

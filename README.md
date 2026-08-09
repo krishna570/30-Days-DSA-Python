@@ -1,29 +1,43 @@
+# 🐍 30 Days of DSA & Python
+
+> 🚀 **A 30-Day Coding Challenge to Strengthen Python, DSA, and Problem-Solving Skills**
+
+Welcome to my **30 Days of DSA & Python** journey!
+This repository documents my daily progress solving coding problems and learning important Python concepts through **HackerRank**.
+
+The goal is simple:
+
+**Code every day → Learn every day → Improve every day. 💻🔥**
+
+---
+
 # 📅 Challenge Progress
 
-|    Day   | Topics Covered                                         |   Status  |
-| :------: | ------------------------------------------------------ | :-------: |
-|  ✅ Day 1 | Python If-Else                                         | Completed |
-|  ✅ Day 2 | Arithmetic Operators, Python Division, Loops           | Completed |
-|  ✅ Day 3 | Write a Function, Print Function                       | Completed |
-|  ✅ Day 4 | List Comprehensions, Find the Runner-Up Score!         | Completed |
-|  ✅ Day 5 | Nested Lists, Finding the Percentage                   | Completed |
-|  ✅ Day 6 | Lists                                                  | Completed |
-|  ✅ Day 7 | Swap Case                                              | Completed |
-|  ✅ Day 8 | String Split and Join                                  | Completed |
-|  ✅ Day 9 | What's Your Name?, Mutations                           | Completed |
-| ✅ Day 10 | Find a String, String Validators                       | Completed |
-| ✅ Day 11 | Text Alignment                                         | Completed |
-| ✅ Day 12 | Text Wrap                                              | Completed |
-| ✅ Day 13 | Designer Door Mat                                      | Completed |
-| ✅ Day 14 | String Formatting                                      | Completed |
-| ✅ Day 15 | Capitalize!                                            | Completed |
-| ✅ Day 16 | The Minion Game                                        | Completed |
-| ✅ Day 17 | Merge the Tools!                                       | Completed |
-| ✅ Day 18 | itertools.product()                                    | Completed |
-| ✅ Day 19 | collections.Counter()                                  | Completed |
-| ✅ Day 20 | collections.defaultdict()                              | Completed |
-| ✅ Day 21 | itertools.permutations()                               | Completed |
-| ✅ Day 22 | Polar Coordinates                                      | Completed |
+|    Day   | Topics Covered                                 |   Status  |
+| :------: | :--------------------------------------------- | :-------: |
+|  ✅ Day 1 | Python If-Else                                 | Completed |
+|  ✅ Day 2 | Arithmetic Operators, Python Division, Loops   | Completed |
+|  ✅ Day 3 | Functions, Print Function                      | Completed |
+|  ✅ Day 4 | List Comprehensions, Find the Runner-Up Score! | Completed |
+|  ✅ Day 5 | Nested Lists, Finding the Percentage           | Completed |
+|  ✅ Day 6 | Lists                                          | Completed |
+|  ✅ Day 7 | Swap Case                                      | Completed |
+|  ✅ Day 8 | String Split and Join                          | Completed |
+|  ✅ Day 9 | What's Your Name?, Mutations                   | Completed |
+| ✅ Day 10 | Find a String, String Validators               | Completed |
+| ✅ Day 11 | Text Alignment                                 | Completed |
+| ✅ Day 12 | Text Wrap                                      | Completed |
+| ✅ Day 13 | Designer Door Mat                              | Completed |
+| ✅ Day 14 | String Formatting                              | Completed |
+| ✅ Day 15 | Capitalize!                                    | Completed |
+| ✅ Day 16 | The Minion Game                                | Completed |
+| ✅ Day 17 | Merge the Tools!                               | Completed |
+| ✅ Day 18 | `itertools.product()`                          | Completed |
+| ✅ Day 19 | `collections.Counter()`                        | Completed |
+| ✅ Day 20 | `collections.defaultdict()`                    | Completed |
+| ✅ Day 21 | `itertools.permutations()`                     | Completed |
+| ✅ Day 22 | Polar Coordinates                              | Completed |
+| ✅ Day 23 | Average of Sets                                | Completed |
 
 ---
 
@@ -54,6 +68,7 @@
 ├── Day-20/
 ├── Day-21/
 ├── Day-22/
+├── Day-23/
 └── README.md
 ```
 
@@ -61,19 +76,17 @@
 
 # 📊 Current Progress
 
-- 📅 **Days Completed:** **22 / 30**
-- 💻 **Problems Solved:** **30+**
-- ⭐ **HackerRank Python:** **4⭐**
-- 📦 **Latest Topic:** **Polar Coordinates (cmath Module)**
-- 🎯 **Current Focus:** Python Math & Complex Numbers
-- 🚀 **Next Milestone:** **Day 23**
+* 📅 **Days Completed:** **23 / 30**
+* 💻 **Problems Solved:** **30+**
+* ⭐ **HackerRank Python:** **4⭐**
+* 📌 **Latest Topic:** **Sets — Average of Sets**
+* 🎯 **Current Focus:** Python Sets & Built-in Functions
+* 🚀 **Next Milestone:** **Day 24**
 
----
-
-# 📈 Challenge Status
+### Progress
 
 ```text
-██████████████████████░ 22/30 Days Completed (73.3%)
+███████████████████████░░░ 23/30 Days Completed (76.7%)
 ```
 
 ---
@@ -82,118 +95,184 @@
 
 ## 🐍 Python Basics
 
-- ✅ If-Else
-- ✅ Arithmetic Operators
-- ✅ Division
-- ✅ Loops
-- ✅ Functions
-- ✅ Print Function
+* ✅ If-Else
+* ✅ Arithmetic Operators
+* ✅ Division
+* ✅ Loops
+* ✅ Functions
+* ✅ Print Function
+* ✅ Built-in Functions
 
 ## 📋 Lists
 
-- ✅ List Comprehensions
-- ✅ Lists
-- ✅ Nested Lists
-- ✅ Runner-Up Score
+* ✅ Lists
+* ✅ List Comprehensions
+* ✅ Nested Lists
+* ✅ Runner-Up Score
+* ✅ List Processing
+* ✅ Index-Based Operations
 
 ## 📖 Dictionaries & Collections
 
-- ✅ Finding the Percentage
-- ✅ collections.Counter()
-- ✅ collections.defaultdict()
-- ✅ Frequency Counting
-- ✅ Inventory Management
-- ✅ Default Dictionary Mapping
-- ✅ Grouping Elements Efficiently
-- ✅ Dictionary-Based Counting
+* ✅ Finding the Percentage
+* ✅ `collections.Counter()`
+* ✅ `collections.defaultdict()`
+* ✅ Frequency Counting
+* ✅ Inventory Management
+* ✅ Dictionary-Based Counting
+* ✅ Default Dictionary Mapping
+* ✅ Grouping Elements Efficiently
+* ✅ Hash Map-Based Problem Solving
 
 ## 🔤 Strings
 
-- ✅ String Split & Join
-- ✅ String Manipulation
-- ✅ String Slicing
-- ✅ String Mutation
-- ✅ Find a String
-- ✅ String Validators
-- ✅ Text Alignment
-- ✅ Text Wrap
-- ✅ String Formatting
-- ✅ Capitalize!
-- ✅ The Minion Game
-- ✅ Merge the Tools!
+* ✅ String Split & Join
+* ✅ String Manipulation
+* ✅ String Slicing
+* ✅ String Mutation
+* ✅ Find a String
+* ✅ String Validators
+* ✅ Text Alignment
+* ✅ Text Wrap
+* ✅ String Formatting
+* ✅ Capitalize!
+* ✅ The Minion Game
+* ✅ Merge the Tools!
 
 ## 🔄 Python Itertools
 
-- ✅ itertools.product()
-- ✅ itertools.permutations()
-- ✅ Cartesian Product Generation
-- ✅ Permutation Generation
-- ✅ Tuple Iteration
-- ✅ Efficient Combinatorial Operations
+* ✅ `itertools.product()`
+* ✅ `itertools.permutations()`
+* ✅ Cartesian Product Generation
+* ✅ Permutation Generation
+* ✅ Tuple Iteration
+* ✅ Combinatorial Operations
 
 ## 🧮 Python Math & Complex Numbers
 
-- ✅ Polar Coordinates Conversion
-- ✅ Complex Number Parsing with `complex()`
-- ✅ Modulus Calculation using `abs()`
-- ✅ Phase Angle Computation using `cmath.phase()`
+* ✅ Polar Coordinates
+* ✅ Complex Number Parsing with `complex()`
+* ✅ Modulus Calculation using `abs()`
+* ✅ Phase Angle Calculation using `cmath.phase()`
+* ✅ Mathematical Modeling in the Complex Plane
+
+## 🟢 Python Sets
+
+* ✅ Creating Sets
+* ✅ Removing Duplicate Elements
+* ✅ Set-Based Membership Testing
+* ✅ `set()`
+* ✅ `sum()`
+* ✅ `len()`
+* ✅ Calculating the Average of Distinct Values
+* ✅ Working with Unique Elements
 
 ## 🎨 Pattern Printing
 
-- ✅ Designer Door Mat
-- ✅ Center Alignment
-- ✅ Pattern Generation Using Loops
+* ✅ Designer Door Mat
+* ✅ Center Alignment
+* ✅ Pattern Generation Using Loops
 
-## 🧠 Problem Solving
+---
 
-- ✅ Optimized String Processing
-- ✅ Substring Counting Technique
-- ✅ Index-Based Scoring
-- ✅ Time Complexity Optimization (O(n))
-- ✅ Vowel & Consonant Classification
-- ✅ String Partitioning
-- ✅ Duplicate Character Removal
-- ✅ Ordered Character Processing
-- ✅ Cartesian Product Generation
-- ✅ Permutation Generation
-- ✅ Python Standard Library Usage
-- ✅ Frequency Counting Using Counter
-- ✅ Inventory Simulation
-- ✅ Conditional Selling Logic
-- ✅ Hash Map-Based Problem Solving
-- ✅ Efficient Group Mapping using defaultdict
-- ✅ Index Tracking
-- ✅ Default Value Handling
-- ✅ Data Grouping Techniques
-- ✅ Combinatorial Problem Solving
-- ✅ Mathematical Modeling in the Complex Plane
+# 🧠 Problem-Solving Skills
+
+Throughout this challenge, I have practiced:
+
+* ✅ String Processing
+* ✅ Substring Counting
+* ✅ Index-Based Scoring
+* ✅ Time Complexity Optimization
+* ✅ Vowel & Consonant Classification
+* ✅ String Partitioning
+* ✅ Duplicate Character Removal
+* ✅ Ordered Character Processing
+* ✅ Cartesian Product Generation
+* ✅ Permutation Generation
+* ✅ Frequency Counting
+* ✅ Inventory Simulation
+* ✅ Conditional Logic
+* ✅ Hash Map-Based Problem Solving
+* ✅ Efficient Group Mapping
+* ✅ Index Tracking
+* ✅ Default Value Handling
+* ✅ Data Grouping
+* ✅ Combinatorial Problem Solving
+* ✅ Mathematical Modeling
+* ✅ Duplicate Removal Using Sets
+* ✅ Unique-Element Processing
+
+---
+
+# 🎉 Latest Achievement — Day 23
+
+## 🟢 Average of Sets
+
+On Day 23, I learned how to use **Python Sets** to solve the HackerRank **Average of Sets** problem.
+
+### Key concepts learned:
+
+* 🔹 Sets automatically remove duplicate values
+* 🔹 `set()` can be used to extract unique elements
+* 🔹 `sum()` calculates the total of unique values
+* 🔹 `len()` counts the number of unique elements
+* 🔹 `round()` controls decimal precision
+
+### Core logic
+
+```python
+def average(array):
+    return round(sum(set(array)) / len(set(array)), 3)
+```
+
+### Problem-solving pattern
+
+```text
+Array
+  ↓
+set()
+  ↓
+Remove duplicates
+  ↓
+sum() + len()
+  ↓
+Calculate average
+  ↓
+round(..., 3)
+```
+
+This problem strengthened my understanding of **sets, duplicate elimination, and Python built-in functions**.
 
 ---
 
 # 🏅 Milestones Achieved
 
-## 🎉 Day 22 Completed!
-
-- ✅ 22 Consecutive Days of Coding
-- ✅ 30+ HackerRank Problems Solved
-- ✅ Solved the **Polar Coordinates** challenge
-- ✅ Mastered python's built-in `complex()` data type conversions
-- ✅ Leveraged the **cmath** module to evaluate real and imaginary numbers
-- ✅ Expanded algorithmic understanding of geometric transformations
-- ✅ Maintained strict consistency over a 22-day streak
+* ✅ **23 Consecutive Days of Coding**
+* ✅ **30+ HackerRank Problems Solved**
+* ✅ **4⭐ HackerRank Python**
+* ✅ Completed Python Basics
+* ✅ Completed Major String Challenges
+* ✅ Learned Python Collections
+* ✅ Learned `itertools`
+* ✅ Learned Complex Numbers
+* ✅ Started Python Sets
+* 🔥 Maintained consistency for 23 days
 
 ---
 
 # 📌 Upcoming Topics
 
-- 🔹 itertools.combinations()
-- 🔹 itertools.combinations_with_replacement()
-- 🔹 Sets
-- 🔹 More Collections
-- 🔹 Built-in Functions
-- 🔹 Exceptions
-- 🔹 Functional Programming
-- 🔹 Regular Expressions
+The next stages of my challenge will focus on:
+
+* 🔹 `itertools.combinations()`
+* 🔹 `itertools.combinations_with_replacement()`
+* 🔹 Set Operations
+* 🔹 More Collections
+* 🔹 Built-in Functions
+* 🔹 Exceptions
+* 🔹 Functional Programming
+* 🔹 Regular Expressions
+* 🔹 Advanced Python Problem Solving
 
 ---
 
@@ -222,7 +301,35 @@ Day 19  ████████████████████
 Day 20  ████████████████████
 Day 21  ████████████████████
 Day 22  ████████████████████
+Day 23  ████████████████████
 ```
+
+---
+
+# 📊 Challenge Progress
+
+```text
+Completed: 23 / 30
+
+███████████████████████░░░
+
+76.7% Complete
+```
+
+### 🎯 Only 7 Days Remaining!
+
+```text
+Day 23 ✅
+Day 24 🔜
+Day 25 🔜
+Day 26 🔜
+Day 27 🔜
+Day 28 🔜
+Day 29 🔜
+Day 30 🏆
+```
+
+**23 days down. 7 more to go. 🚀**
 
 ---
 
@@ -230,26 +337,38 @@ Day 22  ████████████████████
 
 ## 💼 LinkedIn
 
-🔗 https://www.linkedin.com/in/krishna-solanke-4123972b6
+🔗 [LinkedIn](https://www.linkedin.com/in/krishna-solanke-4123972b6)
 
 ## 💻 GitHub
 
-🔗 https://github.com/krishna570
+🔗 [GitHub](https://github.com/krishna570)
 
 ## 🏆 HackerRank
 
-🔗 https://www.hackerrank.com/krishna570
+🔗 [HackerRank](https://www.hackerrank.com/krishna570)
 
 ---
 
 # ⭐ Support
 
-If you find this repository helpful or enjoy following my learning journey, please consider giving it a **⭐ Star**. Your support motivates me to keep learning, improving, and sharing my progress with the developer community.
+If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
+
+Your support motivates me to keep learning, improving, and sharing my progress with the developer community! 💙
 
 ---
 
 # 🚀 My Goal
 
-> **"Every coding challenge I solve strengthens my logical thinking, improves my problem-solving skills, and brings me one step closer to becoming a skilled Software Engineer and Data Scientist."** 💙
+> **"Every coding challenge I solve strengthens my logical thinking, improves my problem-solving skills, and brings me one step closer to becoming a skilled Software Engineer and Data Scientist."**
 
-### ⭐ Thanks for visiting my repository. Happy Coding! 🚀
+---
+
+# 💙 Thanks for Visiting!
+
+**23 Days Completed.
+30-Day Challenge in Progress.
+7 Days Remaining.**
+
+### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
+
+**Happy Coding! 💻**

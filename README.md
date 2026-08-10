@@ -3,6 +3,7 @@
 > 🚀 **A 30-Day Coding Challenge to Strengthen Python, DSA, and Problem-Solving Skills**
 
 Welcome to my **30 Days of DSA & Python** journey!
+
 This repository documents my daily progress solving coding problems and learning important Python concepts through **HackerRank**.
 
 The goal is simple:
@@ -13,31 +14,32 @@ The goal is simple:
 
 # 📅 Challenge Progress
 
-|    Day   | Topics Covered                                 |   Status  |
-| :------: | :--------------------------------------------- | :-------: |
-|  ✅ Day 1 | Python If-Else                                 | Completed |
-|  ✅ Day 2 | Arithmetic Operators, Python Division, Loops   | Completed |
-|  ✅ Day 3 | Functions, Print Function                      | Completed |
-|  ✅ Day 4 | List Comprehensions, Find the Runner-Up Score! | Completed |
-|  ✅ Day 5 | Nested Lists, Finding the Percentage           | Completed |
-|  ✅ Day 6 | Lists                                          | Completed |
-|  ✅ Day 7 | Swap Case                                      | Completed |
-|  ✅ Day 8 | String Split and Join                          | Completed |
-|  ✅ Day 9 | What's Your Name?, Mutations                   | Completed |
-| ✅ Day 10 | Find a String, String Validators               | Completed |
-| ✅ Day 11 | Text Alignment                                 | Completed |
-| ✅ Day 12 | Text Wrap                                      | Completed |
-| ✅ Day 13 | Designer Door Mat                              | Completed |
-| ✅ Day 14 | String Formatting                              | Completed |
-| ✅ Day 15 | Capitalize!                                    | Completed |
-| ✅ Day 16 | The Minion Game                                | Completed |
-| ✅ Day 17 | Merge the Tools!                               | Completed |
-| ✅ Day 18 | `itertools.product()`                          | Completed |
-| ✅ Day 19 | `collections.Counter()`                        | Completed |
-| ✅ Day 20 | `collections.defaultdict()`                    | Completed |
-| ✅ Day 21 | `itertools.permutations()`                     | Completed |
-| ✅ Day 22 | Polar Coordinates                              | Completed |
-| ✅ Day 23 | Average of Sets                                | Completed |
+|      Day     | Topics Covered                                 |     Status    |
+| :----------: | :--------------------------------------------- | :-----------: |
+|    ✅ Day 1   | Python If-Else                                 |   Completed   |
+|    ✅ Day 2   | Arithmetic Operators, Python Division, Loops   |   Completed   |
+|    ✅ Day 3   | Functions, Print Function                      |   Completed   |
+|    ✅ Day 4   | List Comprehensions, Find the Runner-Up Score! |   Completed   |
+|    ✅ Day 5   | Nested Lists, Finding the Percentage           |   Completed   |
+|    ✅ Day 6   | Lists                                          |   Completed   |
+|    ✅ Day 7   | Swap Case                                      |   Completed   |
+|    ✅ Day 8   | String Split and Join                          |   Completed   |
+|    ✅ Day 9   | What's Your Name?, Mutations                   |   Completed   |
+|   ✅ Day 10   | Find a String, String Validators               |   Completed   |
+|   ✅ Day 11   | Text Alignment                                 |   Completed   |
+|   ✅ Day 12   | Text Wrap                                      |   Completed   |
+|   ✅ Day 13   | Designer Door Mat                              |   Completed   |
+|   ✅ Day 14   | String Formatting                              |   Completed   |
+|   ✅ Day 15   | Capitalize!                                    |   Completed   |
+|   ✅ Day 16   | The Minion Game                                |   Completed   |
+|   ✅ Day 17   | Merge the Tools!                               |   Completed   |
+|   ✅ Day 18   | `itertools.product()`                          |   Completed   |
+|   ✅ Day 19   | `collections.Counter()`                        |   Completed   |
+|   ✅ Day 20   | `collections.defaultdict()`                    |   Completed   |
+|   ✅ Day 21   | `itertools.permutations()`                     |   Completed   |
+|   ✅ Day 22   | Polar Coordinates                              |   Completed   |
+|   ✅ Day 23   | Average of Sets                                |   Completed   |
+| ✅ **Day 24** | **Calendar Module**                            | **Completed** |
 
 ---
 
@@ -69,6 +71,7 @@ The goal is simple:
 ├── Day-21/
 ├── Day-22/
 ├── Day-23/
+├── Day-24/
 └── README.md
 ```
 
@@ -76,17 +79,17 @@ The goal is simple:
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **23 / 30**
+* 📅 **Days Completed:** **24 / 30**
 * 💻 **Problems Solved:** **30+**
 * ⭐ **HackerRank Python:** **4⭐**
-* 📌 **Latest Topic:** **Sets — Average of Sets**
-* 🎯 **Current Focus:** Python Sets & Built-in Functions
-* 🚀 **Next Milestone:** **Day 24**
+* 📌 **Latest Topic:** **Python Calendar Module**
+* 🎯 **Current Focus:** Python Modules & Built-in Libraries
+* 🚀 **Next Milestone:** **Day 25**
 
 ### Progress
 
 ```text
-███████████████████████░░░ 23/30 Days Completed (76.7%)
+████████████████████████░░░░ 24/30 Days Completed (80%)
 ```
 
 ---
@@ -102,6 +105,7 @@ The goal is simple:
 * ✅ Functions
 * ✅ Print Function
 * ✅ Built-in Functions
+* ✅ Python Modules
 
 ## 📋 Lists
 
@@ -167,7 +171,49 @@ The goal is simple:
 * ✅ Calculating the Average of Distinct Values
 * ✅ Working with Unique Elements
 
-## 🎨 Pattern Printing
+## 📅 Python Calendar Module
+
+* ✅ Importing the `calendar` module
+* ✅ Using `calendar.weekday()`
+* ✅ Finding the weekday for a given date
+* ✅ Understanding weekday indexes
+* ✅ Using `calendar.day_name`
+* ✅ Converting weekday names to uppercase
+* ✅ Working with dates using Python's standard library
+
+### Core Logic
+
+```python
+import calendar
+
+month, day, year = map(int, input().split())
+
+day_number = calendar.weekday(year, month, day)
+
+print(calendar.day_name[day_number].upper())
+```
+
+### Problem-Solving Pattern
+
+```text
+Input Date
+    ↓
+Month, Day, Year
+    ↓
+calendar.weekday()
+    ↓
+Weekday Number
+    ↓
+calendar.day_name[]
+    ↓
+.upper()
+    ↓
+DAY NAME
+```
+
+---
+
+# 🎨 Pattern Printing
 
 * ✅ Designer Door Mat
 * ✅ Center Alignment
@@ -201,53 +247,64 @@ Throughout this challenge, I have practiced:
 * ✅ Mathematical Modeling
 * ✅ Duplicate Removal Using Sets
 * ✅ Unique-Element Processing
+* ✅ Date and Weekday Processing
+* ✅ Working with Python Standard Library Modules
 
 ---
 
-# 🎉 Latest Achievement — Day 23
+# 🎉 Latest Achievement — Day 24
 
-## 🟢 Average of Sets
+## 📅 Calendar Module
 
-On Day 23, I learned how to use **Python Sets** to solve the HackerRank **Average of Sets** problem.
+On **Day 24**, I learned how to use Python's built-in **`calendar` module** to determine the day of the week for a given date.
+
+The challenge required taking a date in the format:
+
+```text
+MM DD YYYY
+```
+
+and returning the correct weekday in capital letters.
 
 ### Key concepts learned:
 
-* 🔹 Sets automatically remove duplicate values
-* 🔹 `set()` can be used to extract unique elements
-* 🔹 `sum()` calculates the total of unique values
-* 🔹 `len()` counts the number of unique elements
-* 🔹 `round()` controls decimal precision
+* 🔹 Importing Python's `calendar` module
+* 🔹 Using `calendar.weekday()`
+* 🔹 Understanding weekday indexing
+* 🔹 Accessing weekday names using `calendar.day_name`
+* 🔹 Using `.upper()` to format the output
+* 🔹 Processing user input with `map()`
+* 🔹 Working with Python's standard library
 
-### Core logic
-
-```python
-def average(array):
-    return round(sum(set(array)) / len(set(array)), 3)
-```
-
-### Problem-solving pattern
+### Example
 
 ```text
-Array
-  ↓
-set()
-  ↓
-Remove duplicates
-  ↓
-sum() + len()
-  ↓
-Calculate average
-  ↓
-round(..., 3)
+Input:
+08 05 2015
+
+Output:
+WEDNESDAY
 ```
 
-This problem strengthened my understanding of **sets, duplicate elimination, and Python built-in functions**.
+### Core Logic
+
+```python
+import calendar
+
+month, day, year = map(int, input().split())
+
+day_number = calendar.weekday(year, month, day)
+
+print(calendar.day_name[day_number].upper())
+```
+
+This problem strengthened my understanding of **Python modules, date processing, indexing, and standard library functions**.
 
 ---
 
 # 🏅 Milestones Achieved
 
-* ✅ **23 Consecutive Days of Coding**
+* ✅ **24 Consecutive Days of Coding**
 * ✅ **30+ HackerRank Problems Solved**
 * ✅ **4⭐ HackerRank Python**
 * ✅ Completed Python Basics
@@ -255,8 +312,9 @@ This problem strengthened my understanding of **sets, duplicate elimination, and
 * ✅ Learned Python Collections
 * ✅ Learned `itertools`
 * ✅ Learned Complex Numbers
-* ✅ Started Python Sets
-* 🔥 Maintained consistency for 23 days
+* ✅ Learned Python Sets
+* ✅ Learned Python Calendar Module
+* 🔥 Maintained consistency for **24 days**
 
 ---
 
@@ -302,6 +360,7 @@ Day 20  ████████████████████
 Day 21  ████████████████████
 Day 22  ████████████████████
 Day 23  ████████████████████
+Day 24  ████████████████████
 ```
 
 ---
@@ -309,18 +368,17 @@ Day 23  ████████████████████
 # 📊 Challenge Progress
 
 ```text
-Completed: 23 / 30
+Completed: 24 / 30
 
-███████████████████████░░░
+████████████████████████░░░░
 
-76.7% Complete
+80% Complete
 ```
 
-### 🎯 Only 7 Days Remaining!
+### 🎯 Only 6 Days Remaining!
 
 ```text
-Day 23 ✅
-Day 24 🔜
+Day 24 ✅
 Day 25 🔜
 Day 26 🔜
 Day 27 🔜
@@ -329,7 +387,7 @@ Day 29 🔜
 Day 30 🏆
 ```
 
-**23 days down. 7 more to go. 🚀**
+**24 days down. Only 6 more to go! 🚀🔥**
 
 ---
 
@@ -365,9 +423,9 @@ Your support motivates me to keep learning, improving, and sharing my progress w
 
 # 💙 Thanks for Visiting!
 
-**23 Days Completed.
-30-Day Challenge in Progress.
-7 Days Remaining.**
+**24 Days Completed.**
+**30-Day Challenge in Progress.**
+**6 Days Remaining.**
 
 ### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
 

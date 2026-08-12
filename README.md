@@ -40,7 +40,8 @@ The goal is simple:
 |   ✅ Day 22   | Polar Coordinates                              |   Completed   |
 |   ✅ Day 23   | Average of Sets                                |   Completed   |
 |   ✅ Day 24   | Calendar Module                                |   Completed   |
-| ✅ **Day 25** | **Exceptions**                                 | **Completed** |
+|   ✅ Day 25   | Exceptions                                     |   Completed   |
+| **✅ Day 26** | **`collections.namedtuple()`**                 | **Completed** |
 
 ---
 
@@ -74,6 +75,7 @@ The goal is simple:
 ├── Day-23/
 ├── Day-24/
 ├── Day-25/
+├── Day-26/
 └── README.md
 ```
 
@@ -81,17 +83,17 @@ The goal is simple:
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **25 / 30**
+* 📅 **Days Completed:** **26 / 30**
 * 💻 **Problems Solved:** **30+**
 * ⭐ **HackerRank Python:** **4⭐**
-* 📌 **Latest Topic:** **Python Exception Handling**
-* 🎯 **Current Focus:** Python Modules, Built-in Libraries & Exception Handling
-* 🚀 **Next Milestone:** **Day 26**
+* 📌 **Latest Topic:** **`collections.namedtuple()`**
+* 🎯 **Current Focus:** Python Collections, Built-in Libraries & Problem Solving
+* 🚀 **Next Milestone:** **Day 27**
 
 ### Progress
 
 ```text
-█████████████████████████░░░ 25/30 Days Completed (83%)
+██████████████████████████░░ 26/30 Days Completed (87%)
 ```
 
 ---
@@ -130,11 +132,14 @@ The goal is simple:
 * ✅ Finding the Percentage
 * ✅ `collections.Counter()`
 * ✅ `collections.defaultdict()`
+* ✅ `collections.namedtuple()`
 * ✅ Frequency Counting
 * ✅ Inventory Management
 * ✅ Dictionary-Based Counting
 * ✅ Default Dictionary Mapping
 * ✅ Grouping Elements Efficiently
+* ✅ Named Field Access
+* ✅ Structured Data Representation
 * ✅ Hash Map-Based Problem Solving
 
 ---
@@ -281,12 +286,12 @@ Convert to Integer
   ↓
 Try Integer Division
   ↓
- ┌───────────────────────┐
- │                       │
- ↓                       ↓
-Success               Error
- │                       │
- ↓                 ┌─────┴─────┐
+  ┌───────────────────────┐
+  │                       │
+  ↓                       ↓
+Success                 Error
+  │                       │
+  ↓                 ┌─────┴─────┐
 Print Result        ↓           ↓
               ZeroDivision   ValueError
                    ↓             ↓
@@ -303,7 +308,7 @@ Input:
 3 1
 ```
 
-Output:
+### Output
 
 ```text
 Error Code: integer division or modulo by zero
@@ -314,6 +319,93 @@ Error Code: invalid literal for int() with base 10: '$'
 ### Key Learning
 
 Day 25 strengthened my understanding of **Python exception handling** and taught me how to write programs that can gracefully handle unexpected input and runtime errors.
+
+---
+
+# 🏷️ Python Collections — `namedtuple()`
+
+## Day 26 — `collections.namedtuple()`
+
+On **Day 26**, I learned about **`collections.namedtuple()`**, a useful Python collection for creating lightweight tuple-like objects with **named fields**.
+
+Unlike a normal tuple where values are accessed using numeric indexes, a `namedtuple` allows values to be accessed using meaningful field names.
+
+### Key Concepts Learned
+
+* 🔹 `collections.namedtuple()`
+* 🔹 Creating named tuple structures
+* 🔹 Named fields
+* 🔹 Accessing values using field names
+* 🔹 Accessing values using indexes
+* 🔹 Lightweight data structures
+* 🔹 Readable data representation
+* 🔹 Working with structured records
+
+### Basic Syntax
+
+```python
+from collections import namedtuple
+
+Student = namedtuple("Student", ["name", "age", "course"])
+
+student = Student("Krishna", 23, "MCA")
+
+print(student.name)
+print(student.age)
+print(student.course)
+```
+
+### Output
+
+```text
+Krishna
+23
+MCA
+```
+
+### Problem-Solving Pattern
+
+```text
+Import namedtuple
+       ↓
+Create Named Structure
+       ↓
+Define Field Names
+       ↓
+Create Records
+       ↓
+Access Values
+       ↓
+Field Name / Index
+       ↓
+Process Data
+```
+
+### Why `namedtuple()` Is Useful
+
+* ✅ Makes tuple data more readable
+* ✅ Provides meaningful field names
+* ✅ Keeps data lightweight
+* ✅ Supports index-based access
+* ✅ Useful for representing structured records
+* ✅ Helps make code easier to understand
+
+### Example
+
+```python
+from collections import namedtuple
+
+Student = namedtuple("Student", ["name", "marks"])
+
+student = Student("Krishna", 85)
+
+print(student.name)
+print(student.marks)
+```
+
+### Key Learning
+
+Day 26 improved my understanding of **Python Collections** and showed me how `namedtuple()` can be used to represent structured data in a clean and readable way.
 
 ---
 
@@ -357,42 +449,45 @@ Throughout this challenge, I have practiced:
 * ✅ Runtime Error Handling
 * ✅ Input Validation
 * ✅ Error Message Handling
+* ✅ Structured Data Representation
+* ✅ Named Field Access
 
 ---
 
-# 🎉 Latest Achievement — Day 25
+# 🎉 Latest Achievement — Day 26
 
-## ⚠️ Exception Handling
+## 🏷️ `collections.namedtuple()`
 
-**Day 25 completed! 🎯**
+**Day 26 completed! 🎯🔥**
 
-Today I learned how Python handles unexpected situations using **`try` and `except`**.
+Today I learned how to use **`collections.namedtuple()`** to create lightweight and readable data structures in Python.
 
-The challenge required performing integer division while handling different types of errors.
+Instead of accessing tuple values only through indexes, `namedtuple()` allows values to be accessed using meaningful field names.
 
 ### Key Concepts Learned
 
-* 🔹 `try` block
-* 🔹 `except` block
-* 🔹 `ZeroDivisionError`
-* 🔹 `ValueError`
-* 🔹 Error messages
-* 🔹 Integer conversion
-* 🔹 Integer division using `//`
-* 🔹 Handling invalid input
-* 🔹 Writing more robust Python programs
+* 🔹 `collections.namedtuple()`
+* 🔹 Named fields
+* 🔹 Tuple-like objects
+* 🔹 Structured data
+* 🔹 Field-based access
+* 🔹 Index-based access
+* 🔹 Readable data representation
+* 🔹 Python Collections
 
 ### What I Learned
 
-Instead of allowing the program to crash when an error occurs, exception handling allows us to **detect the error and respond appropriately**.
+`namedtuple()` combines the simplicity of tuples with the readability of named fields.
 
-This is an important concept for writing reliable and user-friendly Python applications.
+It is useful when working with structured records where each value has a specific meaning.
+
+This challenge strengthened my understanding of **Python's Collections module** and improved my ability to work with structured data efficiently.
 
 ---
 
 # 🏅 Milestones Achieved
 
-* ✅ **25 Consecutive Days of Coding**
+* ✅ **26 Consecutive Days of Coding**
 * ✅ **30+ HackerRank Problems Solved**
 * ✅ **4⭐ HackerRank Python**
 * ✅ Completed Python Basics
@@ -403,7 +498,8 @@ This is an important concept for writing reliable and user-friendly Python appli
 * ✅ Learned Python Sets
 * ✅ Learned Python Calendar Module
 * ✅ Learned Exception Handling
-* 🔥 Maintained consistency for **25 days**
+* ✅ Learned `collections.namedtuple()`
+* 🔥 Maintained consistency for **26 days**
 
 ---
 
@@ -451,6 +547,7 @@ Day 22  ████████████████████
 Day 23  ████████████████████
 Day 24  ████████████████████
 Day 25  ████████████████████
+Day 26  ████████████████████
 ```
 
 ---
@@ -458,25 +555,25 @@ Day 25  ████████████████████
 # 📊 Challenge Progress
 
 ```text
-Completed: 25 / 30
+Completed: 26 / 30
 
-█████████████████████████░░░
+██████████████████████████░░
 
-83% Complete
+87% Complete
 ```
 
-### 🎯 Only 5 Days Remaining!
+### 🎯 Only 4 Days Remaining!
 
 ```text
 Day 25 ✅
-Day 26 🔜
+Day 26 ✅
 Day 27 🔜
 Day 28 🔜
 Day 29 🔜
 Day 30 🏆
 ```
 
-**25 days down. Only 5 more to go! 🚀🔥**
+**26 days down. Only 4 more to go! 🚀🔥**
 
 ---
 
@@ -512,9 +609,11 @@ Your support motivates me to keep learning, improving, and sharing my progress w
 
 # 💙 Thanks for Visiting!
 
-**25 Days Completed.**
+**26 Days Completed.**
+
 **30-Day Challenge in Progress.**
-**5 Days Remaining.**
+
+**4 Days Remaining.**
 
 ### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
 

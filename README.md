@@ -42,6 +42,7 @@ The goal is simple:
 |   ✅ Day 24   | Calendar Module                                |   Completed   |
 |   ✅ Day 25   | Exceptions                                     |   Completed   |
 | **✅ Day 26** | **`collections.namedtuple()`**                 | **Completed** |
+| **✅ Day 27** | **Time Delta, `datetime` & Timezone Handling** | **Completed** |
 
 ---
 
@@ -76,6 +77,7 @@ The goal is simple:
 ├── Day-24/
 ├── Day-25/
 ├── Day-26/
+├── Day-27/
 └── README.md
 ```
 
@@ -83,17 +85,17 @@ The goal is simple:
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **26 / 30**
+* 📅 **Days Completed:** **27 / 30**
 * 💻 **Problems Solved:** **30+**
 * ⭐ **HackerRank Python:** **4⭐**
-* 📌 **Latest Topic:** **`collections.namedtuple()`**
-* 🎯 **Current Focus:** Python Collections, Built-in Libraries & Problem Solving
-* 🚀 **Next Milestone:** **Day 27**
+* 📌 **Latest Topic:** **Time Delta, `datetime` & Timezone Handling**
+* 🎯 **Current Focus:** Python Standard Library, DateTime & Problem Solving
+* 🚀 **Next Milestone:** **Day 28**
 
 ### Progress
 
 ```text
-██████████████████████████░░ 26/30 Days Completed (87%)
+███████████████████████████░ 27/30 Days Completed (90%)
 ```
 
 ---
@@ -139,6 +141,10 @@ The goal is simple:
 * ✅ Default Dictionary Mapping
 * ✅ Grouping Elements Efficiently
 * ✅ Named Field Access
+* ✅ DateTime Parsing
+* ✅ Timezone-Aware DateTime Handling
+* ✅ Time Difference Calculation
+* ✅ Converting Time Differences to Seconds
 * ✅ Structured Data Representation
 * ✅ Hash Map-Based Problem Solving
 
@@ -409,6 +415,64 @@ Day 26 improved my understanding of **Python Collections** and showed me how `na
 
 ---
 
+# ⏱️ DateTime & Timezone Handling
+
+## Day 27 — Time Delta
+
+On **Day 27**, I solved the **Time Delta** HackerRank challenge and learned how to work with timezone-aware timestamps using Python's **`datetime` module**.
+
+### Key Concepts Learned
+
+* 🔹 `datetime.strptime()`
+* 🔹 Date and time parsing
+* 🔹 Timezone-aware datetime objects
+* 🔹 Timezone offsets using `%z`
+* 🔹 Calculating datetime differences
+* 🔹 `timedelta.total_seconds()`
+* 🔹 Absolute difference using `abs()`
+* 🔹 Working with Python standard library modules
+
+### Core Logic
+
+```python
+from datetime import datetime
+
+format = "%a %d %b %Y %H:%M:%S %z"
+
+date1 = datetime.strptime(t1, format)
+date2 = datetime.strptime(t2, format)
+
+difference = date1 - date2
+
+seconds = abs(int(difference.total_seconds()))
+
+return str(seconds)
+```
+
+### Problem-Solving Pattern
+
+```text
+Timestamp 1 + Timestamp 2
+          ↓
+   Parse with datetime
+          ↓
+ Handle timezone offsets
+          ↓
+    Subtract datetimes
+          ↓
+   Find absolute difference
+          ↓
+ Convert difference to seconds
+          ↓
+        Answer
+```
+
+### Key Learning
+
+Day 27 improved my understanding of **Python's `datetime` module**, timezone-aware timestamps, and converting time differences into seconds. This challenge strengthened my ability to use Python's standard library to solve real-world time-related problems efficiently.
+
+---
+
 # 🎨 Pattern Printing
 
 * ✅ Designer Door Mat
@@ -451,43 +515,61 @@ Throughout this challenge, I have practiced:
 * ✅ Error Message Handling
 * ✅ Structured Data Representation
 * ✅ Named Field Access
+* ✅ DateTime Parsing
+* ✅ Timezone-Aware DateTime Handling
+* ✅ Time Difference Calculation
+* ✅ Converting Time Differences to Seconds
 
 ---
 
-# 🎉 Latest Achievement — Day 26
+# 🎉 Latest Achievement — Day 27
 
-## 🏷️ `collections.namedtuple()`
+## ⏱️ Time Delta
 
-**Day 26 completed! 🎯🔥**
+**Day 27 completed! 🎯🔥**
 
-Today I learned how to use **`collections.namedtuple()`** to create lightweight and readable data structures in Python.
+Today I solved the **Time Delta** HackerRank challenge using Python's **`datetime` module**.
 
-Instead of accessing tuple values only through indexes, `namedtuple()` allows values to be accessed using meaningful field names.
+The challenge focused on finding the absolute difference between two timestamps while correctly handling different **time zones**.
 
 ### Key Concepts Learned
 
-* 🔹 `collections.namedtuple()`
-* 🔹 Named fields
-* 🔹 Tuple-like objects
-* 🔹 Structured data
-* 🔹 Field-based access
-* 🔹 Index-based access
-* 🔹 Readable data representation
-* 🔹 Python Collections
+* 🔹 `datetime.strptime()`
+* 🔹 Date and time parsing
+* 🔹 Timezone offsets
+* 🔹 Timezone-aware datetime objects
+* 🔹 Datetime subtraction
+* 🔹 `total_seconds()`
+* 🔹 `abs()` for absolute difference
+* 🔹 Python Standard Library
 
 ### What I Learned
 
-`namedtuple()` combines the simplicity of tuples with the readability of named fields.
+I learned how to convert timestamp strings into timezone-aware `datetime` objects and calculate the exact difference between them in seconds.
 
-It is useful when working with structured records where each value has a specific meaning.
+The key idea was:
 
-This challenge strengthened my understanding of **Python's Collections module** and improved my ability to work with structured data efficiently.
+```text
+Timestamp
+   ↓
+Parse with datetime
+   ↓
+Handle timezone
+   ↓
+Subtract timestamps
+   ↓
+Absolute difference
+   ↓
+Convert to seconds
+```
+
+This challenge strengthened my understanding of **date/time processing, timezone handling, and Python standard library modules**.
 
 ---
 
 # 🏅 Milestones Achieved
 
-* ✅ **26 Consecutive Days of Coding**
+* ✅ **27 Consecutive Days of Coding**
 * ✅ **30+ HackerRank Problems Solved**
 * ✅ **4⭐ HackerRank Python**
 * ✅ Completed Python Basics
@@ -499,7 +581,8 @@ This challenge strengthened my understanding of **Python's Collections module** 
 * ✅ Learned Python Calendar Module
 * ✅ Learned Exception Handling
 * ✅ Learned `collections.namedtuple()`
-* 🔥 Maintained consistency for **26 days**
+* ✅ Learned DateTime & Timezone Handling
+* 🔥 Maintained consistency for **27 days**
 
 ---
 
@@ -548,6 +631,7 @@ Day 23  ████████████████████
 Day 24  ████████████████████
 Day 25  ████████████████████
 Day 26  ████████████████████
+Day 27  ████████████████████
 ```
 
 ---
@@ -555,25 +639,25 @@ Day 26  ████████████████████
 # 📊 Challenge Progress
 
 ```text
-Completed: 26 / 30
+Completed: 27 / 30
 
-██████████████████████████░░
+███████████████████████████░
 
-87% Complete
+90% Complete
 ```
 
-### 🎯 Only 4 Days Remaining!
+### 🎯 Only 3 Days Remaining!
 
 ```text
 Day 25 ✅
 Day 26 ✅
-Day 27 🔜
+Day 27 ✅
 Day 28 🔜
 Day 29 🔜
 Day 30 🏆
 ```
 
-**26 days down. Only 4 more to go! 🚀🔥**
+**27 days down. Only 3 more to go! 🚀🔥**
 
 ---
 
@@ -609,11 +693,11 @@ Your support motivates me to keep learning, improving, and sharing my progress w
 
 # 💙 Thanks for Visiting!
 
-**26 Days Completed.**
+**27 Days Completed.**
 
 **30-Day Challenge in Progress.**
 
-**4 Days Remaining.**
+**3 Days Remaining.**
 
 ### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
 

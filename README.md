@@ -42,7 +42,8 @@ The goal is simple:
 |   ✅ Day 24   | Calendar Module                                |   Completed   |
 |   ✅ Day 25   | Exceptions                                     |   Completed   |
 | **✅ Day 26** | **`collections.namedtuple()`**                 | **Completed** |
-| **✅ Day 27** | **Time Delta, `datetime` & Timezone Handling** | **Completed** |
+| **✅ Day 27** | **No Idea!, Python Sets & Membership Testing** | **Completed** |
+| **✅ Day 28** | **No Idea!, Python Sets & Membership Testing** | **Completed** |
 
 ---
 
@@ -78,6 +79,7 @@ The goal is simple:
 ├── Day-25/
 ├── Day-26/
 ├── Day-27/
+├── Day-28/
 └── README.md
 ```
 
@@ -85,17 +87,17 @@ The goal is simple:
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **27 / 30**
+* 📅 **Days Completed:** **28 / 30**
 * 💻 **Problems Solved:** **30+**
 * ⭐ **HackerRank Python:** **4⭐**
-* 📌 **Latest Topic:** **Time Delta, `datetime` & Timezone Handling**
-* 🎯 **Current Focus:** Python Standard Library, DateTime & Problem Solving
-* 🚀 **Next Milestone:** **Day 28**
+* 📌 **Latest Topic:** **No Idea!, Python Sets & Membership Testing**
+* 🎯 **Current Focus:** Python Sets, Membership Testing & Problem Solving
+* 🚀 **Next Milestone:** **Day 29**
 
 ### Progress
 
 ```text
-███████████████████████████░ 27/30 Days Completed (90%)
+████████████████████████████░ 28/30 Days Completed (93%)
 ```
 
 ---
@@ -145,6 +147,9 @@ The goal is simple:
 * ✅ Timezone-Aware DateTime Handling
 * ✅ Time Difference Calculation
 * ✅ Converting Time Differences to Seconds
+* ✅ Set-Based Membership Testing
+* ✅ Efficient Set Lookup
+* ✅ Conditional Happiness Scoring
 * ✅ Structured Data Representation
 * ✅ Hash Map-Based Problem Solving
 
@@ -473,6 +478,91 @@ Day 27 improved my understanding of **Python's `datetime` module**, timezone-awa
 
 ---
 
+---
+
+# 🟢 Python Sets & Membership Testing
+
+## Day 28 — No Idea!
+
+**Day 28 completed! 🎯🔥**
+
+Today I solved the **No Idea!** HackerRank challenge using Python **sets** and membership testing.
+
+The challenge focused on calculating a happiness score by checking whether each element of an array belongs to **Set A** or **Set B**.
+
+### Key Concepts Learned
+
+* 🔹 Python `set()`
+* 🔹 Set membership testing using `in`
+* 🔹 Efficient set lookups
+* 🔹 Conditional logic
+* 🔹 Input handling with `sys.stdin`
+* 🔹 O(1) average-time membership lookup
+* 🔹 O(n) overall solution
+
+### Core Logic
+
+```python
+import sys
+
+def solve():
+    input_data = sys.stdin.read().splitlines()
+    if not input_data:
+        return
+
+    n, m = map(int, input_data[0].split())
+
+    arr = list(map(int, input_data[1].split()))
+
+    set_a = set(map(int, input_data[2].split()))
+    set_b = set(map(int, input_data[3].split()))
+
+    happiness = 0
+
+    for num in arr:
+        if num in set_a:
+            happiness += 1
+        elif num in set_b:
+            happiness -= 1
+
+    print(happiness)
+
+if __name__ == '__main__':
+    solve()
+```
+
+### Problem-Solving Pattern
+
+```text
+Array Element
+      ↓
+Check Set A
+   ↙       ↘
+ Yes        No
+  ↓          ↓
+ +1      Check Set B
+             ↓
+        ┌────┴────┐
+       Yes        No
+        ↓          ↓
+       -1       No Change
+        ↓          ↓
+        └────┬─────┘
+             ↓
+      Final Happiness
+```
+
+### Efficiency
+
+Python sets provide **O(1) average-time membership testing**, making them useful for problems that require frequent lookups.
+
+For `n` elements, the overall solution runs in approximately **O(n)** time.
+
+### Key Learning
+
+Day 28 strengthened my understanding of **Python sets, membership testing, efficient lookups, conditional scoring, and data-structure-based problem solving**.
+
+
 # 🎨 Pattern Printing
 
 * ✅ Designer Door Mat
@@ -522,54 +612,48 @@ Throughout this challenge, I have practiced:
 
 ---
 
-# 🎉 Latest Achievement — Day 27
+# 🎉 Latest Achievement — Day 28
 
-## ⏱️ Time Delta
+## 🟢 No Idea!
 
-**Day 27 completed! 🎯🔥**
+**Day 28 completed! 🎯🔥**
 
-Today I solved the **Time Delta** HackerRank challenge using Python's **`datetime` module**.
+Today I solved the **No Idea!** HackerRank challenge using Python **sets** and membership testing.
 
-The challenge focused on finding the absolute difference between two timestamps while correctly handling different **time zones**.
-
-### Key Concepts Learned
-
-* 🔹 `datetime.strptime()`
-* 🔹 Date and time parsing
-* 🔹 Timezone offsets
-* 🔹 Timezone-aware datetime objects
-* 🔹 Datetime subtraction
-* 🔹 `total_seconds()`
-* 🔹 `abs()` for absolute difference
-* 🔹 Python Standard Library
+The challenge focused on calculating a happiness score by checking whether each element of an array belongs to **Set A** or **Set B**.
 
 ### What I Learned
 
-I learned how to convert timestamp strings into timezone-aware `datetime` objects and calculate the exact difference between them in seconds.
+I learned how Python sets can make membership-based problems efficient and how conditional logic can be used to update a result while processing an array.
 
 The key idea was:
 
 ```text
-Timestamp
-   ↓
-Parse with datetime
-   ↓
-Handle timezone
-   ↓
-Subtract timestamps
-   ↓
-Absolute difference
-   ↓
-Convert to seconds
+Array Element
+      ↓
+Check Set A
+   ↙       ↘
+ Yes        No
+  ↓          ↓
+ +1      Check Set B
+             ↓
+        ┌────┴────┐
+       Yes        No
+        ↓          ↓
+       -1       No Change
+        ↓          ↓
+        └────┬─────┘
+             ↓
+      Final Happiness
 ```
 
-This challenge strengthened my understanding of **date/time processing, timezone handling, and Python standard library modules**.
+This challenge strengthened my understanding of **sets, membership testing, efficient lookups, and Python problem solving**.
 
 ---
 
 # 🏅 Milestones Achieved
 
-* ✅ **27 Consecutive Days of Coding**
+* ✅ **28 Consecutive Days of Coding**
 * ✅ **30+ HackerRank Problems Solved**
 * ✅ **4⭐ HackerRank Python**
 * ✅ Completed Python Basics
@@ -582,7 +666,7 @@ This challenge strengthened my understanding of **date/time processing, timezone
 * ✅ Learned Exception Handling
 * ✅ Learned `collections.namedtuple()`
 * ✅ Learned DateTime & Timezone Handling
-* 🔥 Maintained consistency for **27 days**
+* 🔥 Maintained consistency for **28 days**
 
 ---
 
@@ -632,6 +716,7 @@ Day 24  ████████████████████
 Day 25  ████████████████████
 Day 26  ████████████████████
 Day 27  ████████████████████
+Day 28  ████████████████████
 ```
 
 ---
@@ -639,11 +724,11 @@ Day 27  ████████████████████
 # 📊 Challenge Progress
 
 ```text
-Completed: 27 / 30
+Completed: 28 / 30
 
-███████████████████████████░
+████████████████████████████░
 
-90% Complete
+93% Complete
 ```
 
 ### 🎯 Only 3 Days Remaining!
@@ -652,12 +737,12 @@ Completed: 27 / 30
 Day 25 ✅
 Day 26 ✅
 Day 27 ✅
-Day 28 🔜
+Day 28 ✅
 Day 29 🔜
 Day 30 🏆
 ```
 
-**27 days down. Only 3 more to go! 🚀🔥**
+**28 days down. Only 2 more to go! 🚀🔥**
 
 ---
 
@@ -693,11 +778,11 @@ Your support motivates me to keep learning, improving, and sharing my progress w
 
 # 💙 Thanks for Visiting!
 
-**27 Days Completed.**
+**28 Days Completed.**
 
 **30-Day Challenge in Progress.**
 
-**3 Days Remaining.**
+**2 Days Remaining.**
 
 ### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
 

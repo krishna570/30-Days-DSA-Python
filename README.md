@@ -44,6 +44,7 @@ The goal is simple:
 | **✅ Day 26** | **`collections.namedtuple()`**                 | **Completed** |
 | **✅ Day 27** | **No Idea!, Python Sets & Membership Testing** | **Completed** |
 | **✅ Day 28** | **No Idea!, Python Sets & Membership Testing** | **Completed** |
+| **✅ Day 29** | **Find Angle MBC, `math.atan2()`, Angle Conversion** | **Completed** |
 
 ---
 
@@ -80,6 +81,7 @@ The goal is simple:
 ├── Day-26/
 ├── Day-27/
 ├── Day-28/
+├── Day-29/
 └── README.md
 ```
 
@@ -87,17 +89,17 @@ The goal is simple:
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **28 / 30**
+* 📅 **Days Completed:** **29 / 30**
 * 💻 **Problems Solved:** **30+**
 * ⭐ **HackerRank Python:** **4⭐**
-* 📌 **Latest Topic:** **No Idea!, Python Sets & Membership Testing**
-* 🎯 **Current Focus:** Python Sets, Membership Testing & Problem Solving
-* 🚀 **Next Milestone:** **Day 29**
+* 📌 **Latest Topic:** **Find Angle MBC, `math.atan2()`, Angle Conversion**
+* 🎯 **Current Focus:** Python Math, Trigonometry & Problem Solving
+* 🚀 **Next Milestone:** **Day 30**
 
 ### Progress
 
 ```text
-████████████████████████████░ 28/30 Days Completed (93%)
+█████████████████████████████ 29/30 Days Completed (97%)
 ```
 
 ---
@@ -147,6 +149,10 @@ The goal is simple:
 * ✅ Timezone-Aware DateTime Handling
 * ✅ Time Difference Calculation
 * ✅ Converting Time Differences to Seconds
+* ✅ Trigonometric Angle Calculation
+* ✅ Radians-to-Degrees Conversion
+* ✅ Using `math.atan2()`
+* ✅ Mathematical Problem Solving
 * ✅ Set-Based Membership Testing
 * ✅ Efficient Set Lookup
 * ✅ Conditional Happiness Scoring
@@ -192,6 +198,16 @@ The goal is simple:
 * ✅ Mathematical Modeling in the Complex Plane
 
 ---
+
+## 🧮 Python Math & Trigonometry
+
+* ✅ `math` module
+* ✅ `math.atan2()`
+* ✅ Converting radians to degrees with `math.degrees()`
+* ✅ Rounding numerical results with `round()`
+* ✅ Working with right-triangle angle calculations
+* ✅ Coordinate/side-based angle calculation
+* ✅ Formatted output using the degree symbol
 
 ## 🟢 Python Sets
 
@@ -563,6 +579,63 @@ For `n` elements, the overall solution runs in approximately **O(n)** time.
 Day 28 strengthened my understanding of **Python sets, membership testing, efficient lookups, conditional scoring, and data-structure-based problem solving**.
 
 
+# 📐 Python Math & Trigonometry
+
+## Day 29 — Find Angle MBC
+
+**Day 29 completed! 🎯🔥**
+
+Today I solved the **Find Angle MBC** HackerRank challenge using Python's **`math` module**.
+
+The problem calculates the angle **MBC** from the given lengths of **AB** and **BC**. I used `math.atan2()` to calculate the angle in radians and then converted it into degrees.
+
+### Key Concepts Learned
+
+* 🔹 Python `math` module
+* 🔹 `math.atan2()`
+* 🔹 `math.degrees()`
+* 🔹 `round()`
+* 🔹 Trigonometric angle calculation
+* 🔹 Converting radians to degrees
+* 🔹 Formatting output with the degree symbol `°`
+
+### Core Logic
+
+```python
+import math
+
+ab = int(input())
+bc = int(input())
+
+angle_deg = round(math.degrees(math.atan2(ab, bc)))
+
+print(f"{angle_deg}°")
+```
+
+### Problem-Solving Pattern
+
+```text
+Input AB and BC
+      ↓
+Convert values to integers
+      ↓
+Calculate angle using atan2(AB, BC)
+      ↓
+Angle in radians
+      ↓
+Convert radians → degrees
+      ↓
+Round the result
+      ↓
+Print angle with °
+```
+
+### Key Learning
+
+Day 29 strengthened my understanding of Python's **math functions, trigonometry, angle calculations, radians-to-degrees conversion, and formatted output**. This problem also helped me connect mathematical concepts with practical programming logic.
+
+---
+
 # 🎨 Pattern Printing
 
 * ✅ Designer Door Mat
@@ -609,51 +682,50 @@ Throughout this challenge, I have practiced:
 * ✅ Timezone-Aware DateTime Handling
 * ✅ Time Difference Calculation
 * ✅ Converting Time Differences to Seconds
+* ✅ Trigonometric Angle Calculation
+* ✅ Radians-to-Degrees Conversion
+* ✅ Using `math.atan2()`
+* ✅ Mathematical Problem Solving
 
 ---
 
-# 🎉 Latest Achievement — Day 28
+# 🎉 Latest Achievement — Day 29
 
-## 🟢 No Idea!
+## 📐 Find Angle MBC
 
-**Day 28 completed! 🎯🔥**
+**Day 29 completed! 🎯🔥**
 
-Today I solved the **No Idea!** HackerRank challenge using Python **sets** and membership testing.
+Today I solved the **Find Angle MBC** HackerRank challenge using Python's `math` module.
 
-The challenge focused on calculating a happiness score by checking whether each element of an array belongs to **Set A** or **Set B**.
+The challenge required calculating an angle from the given sides of a right triangle. I used `math.atan2()` to calculate the angle and `math.degrees()` to convert the result from radians to degrees.
 
 ### What I Learned
 
-I learned how Python sets can make membership-based problems efficient and how conditional logic can be used to update a result while processing an array.
+I learned how Python's mathematical functions can be used to solve trigonometry-based programming problems.
 
 The key idea was:
 
 ```text
-Array Element
-      ↓
-Check Set A
-   ↙       ↘
- Yes        No
-  ↓          ↓
- +1      Check Set B
-             ↓
-        ┌────┴────┐
-       Yes        No
-        ↓          ↓
-       -1       No Change
-        ↓          ↓
-        └────┬─────┘
-             ↓
-      Final Happiness
+AB + BC
+   ↓
+atan2(AB, BC)
+   ↓
+Angle in Radians
+   ↓
+math.degrees()
+   ↓
+Round the Angle
+   ↓
+Print with °
 ```
 
-This challenge strengthened my understanding of **sets, membership testing, efficient lookups, and Python problem solving**.
+This challenge strengthened my understanding of **trigonometry, Python's `math` module, angle conversion, and mathematical problem solving**.
 
 ---
 
 # 🏅 Milestones Achieved
 
-* ✅ **28 Consecutive Days of Coding**
+* ✅ **29 Consecutive Days of Coding**
 * ✅ **30+ HackerRank Problems Solved**
 * ✅ **4⭐ HackerRank Python**
 * ✅ Completed Python Basics
@@ -666,7 +738,7 @@ This challenge strengthened my understanding of **sets, membership testing, effi
 * ✅ Learned Exception Handling
 * ✅ Learned `collections.namedtuple()`
 * ✅ Learned DateTime & Timezone Handling
-* 🔥 Maintained consistency for **28 days**
+* 🔥 Maintained consistency for **29 days**
 
 ---
 
@@ -674,10 +746,10 @@ This challenge strengthened my understanding of **sets, membership testing, effi
 
 The final stage of my challenge will focus on:
 
-* 🔹 `itertools.combinations()`
-* 🔹 `itertools.combinations_with_replacement()`
+* 🔹 Final Day — Day 30
+* 🔹 Final HackerRank Challenge
 * 🔹 Set Operations
-* 🔹 More Collections
+* 🔹 More Python Problem Solving
 * 🔹 Built-in Functions
 * 🔹 Functional Programming
 * 🔹 Regular Expressions
@@ -717,6 +789,7 @@ Day 25  ████████████████████
 Day 26  ████████████████████
 Day 27  ████████████████████
 Day 28  ████████████████████
+Day 29  ████████████████████
 ```
 
 ---
@@ -724,25 +797,25 @@ Day 28  ████████████████████
 # 📊 Challenge Progress
 
 ```text
-Completed: 28 / 30
+Completed: 29 / 30
 
-████████████████████████████░
+█████████████████████████████
 
-93% Complete
+97% Complete
 ```
 
-### 🎯 Only 3 Days Remaining!
+### 🎯 Only 1 Day Remaining!
 
 ```text
 Day 25 ✅
 Day 26 ✅
 Day 27 ✅
 Day 28 ✅
-Day 29 🔜
+Day 29 ✅
 Day 30 🏆
 ```
 
-**28 days down. Only 2 more to go! 🚀🔥**
+**29 days down. Only 1 more to go! 🚀🔥**
 
 ---
 
@@ -778,11 +851,11 @@ Your support motivates me to keep learning, improving, and sharing my progress w
 
 # 💙 Thanks for Visiting!
 
-**28 Days Completed.**
+**29 Days Completed.**
 
 **30-Day Challenge in Progress.**
 
-**2 Days Remaining.**
+**1 Day Remaining.**
 
 ### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
 

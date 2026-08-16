@@ -45,6 +45,7 @@ The goal is simple:
 | **✅ Day 27** | **No Idea!, Python Sets & Membership Testing** | **Completed** |
 | **✅ Day 28** | **No Idea!, Python Sets & Membership Testing** | **Completed** |
 | **✅ Day 29** | **Find Angle MBC, `math.atan2()`, Angle Conversion** | **Completed** |
+| **🏆 Day 30** | **Triangle Quest 2, Pattern Printing, Mathematical Logic** | **Completed** |
 
 ---
 
@@ -82,6 +83,7 @@ The goal is simple:
 ├── Day-27/
 ├── Day-28/
 ├── Day-29/
+├── Day-30/
 └── README.md
 ```
 
@@ -89,17 +91,17 @@ The goal is simple:
 
 # 📊 Current Progress
 
-* 📅 **Days Completed:** **29 / 30**
+* 📅 **Days Completed:** **30 / 30**
 * 💻 **Problems Solved:** **30+**
 * ⭐ **HackerRank Python:** **4⭐**
-* 📌 **Latest Topic:** **Find Angle MBC, `math.atan2()`, Angle Conversion**
-* 🎯 **Current Focus:** Python Math, Trigonometry & Problem Solving
-* 🚀 **Next Milestone:** **Day 30**
+* 📌 **Latest Topic:** **Triangle Quest 2, Pattern Printing & Mathematical Logic**
+* 🎯 **Current Focus:** Python Fundamentals, Problem Solving & Strengthening Basics
+* 🏆 **Milestone:** **30-Day Challenge Completed! 🎉**
 
 ### Progress
 
 ```text
-█████████████████████████████ 29/30 Days Completed (97%)
+██████████████████████████████ 30/30 Days Completed (100%)
 ```
 
 ---
@@ -636,6 +638,91 @@ Day 29 strengthened my understanding of Python's **math functions, trigonometry,
 
 ---
 
+---
+
+# 🔺 Pattern Printing & Mathematical Logic
+
+## Day 30 — Triangle Quest 2
+
+**Day 30 completed! 🏆🔥**
+
+Today I solved the **Triangle Quest 2** HackerRank challenge using Python.
+
+The problem focused on generating a number pattern using a mathematical formula instead of nested loops. This was a great final challenge for my 30-day journey because it made me think carefully about how a simple mathematical expression can generate the required pattern.
+
+### Key Concepts Learned
+
+* 🔹 Python `for` loops
+* 🔹 `range()`
+* 🔹 Integer division using `//`
+* 🔹 Mathematical pattern generation
+* 🔹 Understanding number sequences
+* 🔹 Concise Python solutions
+* 🔹 Problem-solving through mathematical logic
+
+### Core Logic
+
+```python
+for i in range(1, int(input()) + 1):
+    print(((10**i - 1) // 9)**2)
+```
+
+### How the Logic Works
+
+```text
+Input n
+  ↓
+Generate i from 1 to n
+  ↓
+Create repeated 1's
+  ↓
+Square the resulting number
+  ↓
+Generate the required pattern
+  ↓
+Print the result
+```
+
+### Key Learning
+
+Day 30 taught me that **problem solving is not always about writing more code**. Sometimes understanding the mathematical pattern behind a problem can lead to a much simpler solution.
+
+---
+
+# 🎉 30-Day Challenge Completed!
+
+**30 DAYS. 30+ PROBLEMS. ONE HABIT BUILT.** 🚀
+
+Completing this challenge taught me something more valuable than just Python syntax or solving HackerRank problems:
+
+> **Without consistency, nothing is achievable.**
+
+During these 30 days, I also realized that I still have gaps in my **fundamentals and basics**.
+
+And honestly, I'm glad I discovered that now.
+
+I may not know every area where I am weak yet, but I now understand that the next step is not to rush into advanced topics. My next goal is to **go back to the basics, identify my weak areas, strengthen my foundation, and then move forward.**
+
+### What These 30 Days Taught Me
+
+* 🔥 Consistency matters more than motivation.
+* 🧠 Problem solving requires patience.
+* 📚 Strong fundamentals make advanced learning easier.
+* 💻 Solving problems regularly improves logical thinking.
+* 🔍 Finding your weaknesses is part of growth.
+* 🚀 Progress comes from taking small steps every day.
+
+### My Next Goal
+
+**Go back to basics → Find my weak areas → Strengthen fundamentals → Solve more problems → Keep improving.**
+
+This challenge may be completed, but the learning journey continues.
+
+**30 days completed.  
+Consistency built.  
+Weaknesses identified.  
+Foundation next.** 💪🐍🔥
+
 # 🎨 Pattern Printing
 
 * ✅ Designer Door Mat
@@ -689,43 +776,29 @@ Throughout this challenge, I have practiced:
 
 ---
 
-# 🎉 Latest Achievement — Day 29
+# 🎉 Latest Achievement — Day 30
 
-## 📐 Find Angle MBC
+## 🔺 Triangle Quest 2
 
-**Day 29 completed! 🎯🔥**
+**Day 30 completed! 🏆🔥**
 
-Today I solved the **Find Angle MBC** HackerRank challenge using Python's `math` module.
+Today I solved the **Triangle Quest 2** HackerRank challenge using Python.
 
-The challenge required calculating an angle from the given sides of a right triangle. I used `math.atan2()` to calculate the angle and `math.degrees()` to convert the result from radians to degrees.
+The challenge required generating a mathematical number pattern. I used a concise formula with a `for` loop and integer division to produce the required output.
 
 ### What I Learned
 
-I learned how Python's mathematical functions can be used to solve trigonometry-based programming problems.
+This final challenge strengthened my understanding of **loops, mathematical patterns, integer division, and concise problem-solving logic**.
 
-The key idea was:
+More importantly, completing the full 30-day challenge taught me the value of **consistency**.
 
-```text
-AB + BC
-   ↓
-atan2(AB, BC)
-   ↓
-Angle in Radians
-   ↓
-math.degrees()
-   ↓
-Round the Angle
-   ↓
-Print with °
-```
-
-This challenge strengthened my understanding of **trigonometry, Python's `math` module, angle conversion, and mathematical problem solving**.
+I also realized that I have areas where my **basics need improvement**. Instead of ignoring that, I want to use it as my next learning goal.
 
 ---
 
 # 🏅 Milestones Achieved
 
-* ✅ **29 Consecutive Days of Coding**
+* ✅ **30 Consecutive Days of Coding**
 * ✅ **30+ HackerRank Problems Solved**
 * ✅ **4⭐ HackerRank Python**
 * ✅ Completed Python Basics
@@ -738,118 +811,33 @@ This challenge strengthened my understanding of **trigonometry, Python's `math` 
 * ✅ Learned Exception Handling
 * ✅ Learned `collections.namedtuple()`
 * ✅ Learned DateTime & Timezone Handling
-* 🔥 Maintained consistency for **29 days**
+* ✅ Practiced Mathematical & Trigonometric Problem Solving
+* ✅ Practiced Pattern Printing
+* 🏆 **Completed the 30-Day Challenge!**
+* 🔥 **Built consistency through 30 days of coding**
+* 🎯 **Identified the need to strengthen my fundamentals**
 
 ---
 
-# 📌 Upcoming Topics
+# 📌 What's Next?
 
-The final stage of my challenge will focus on:
+The 30-day challenge is complete, but my learning journey is not.
 
-* 🔹 Final Day — Day 30
-* 🔹 Final HackerRank Challenge
-* 🔹 Set Operations
-* 🔹 More Python Problem Solving
-* 🔹 Built-in Functions
-* 🔹 Functional Programming
-* 🔹 Regular Expressions
-* 🔹 Advanced Python Problem Solving
-* 🔹 More HackerRank challenges
+My next focus will be:
+
+* 🔹 Revisiting Python fundamentals
+* 🔹 Identifying weak areas
+* 🔹 Strengthening problem-solving basics
+* 🔹 Practicing DSA consistently
+* 🔹 Solving more HackerRank problems
+* 🔹 Gradually moving toward advanced topics
+* 🔹 Building projects alongside problem solving
+
+**Back to basics. Stronger foundation. Better problem solving. 🚀**
 
 ---
 
 # 📈 My Learning Journey
-
-```text
-Day 01  ████████████████████
-Day 02  ████████████████████
-Day 03  ████████████████████
-Day 04  ████████████████████
-Day 05  ████████████████████
-Day 06  ████████████████████
-Day 07  ████████████████████
-Day 08  ████████████████████
-Day 09  ████████████████████
-Day 10  ████████████████████
-Day 11  ████████████████████
-Day 12  ████████████████████
-Day 13  ████████████████████
-Day 14  ████████████████████
-Day 15  ████████████████████
-Day 16  ████████████████████
-Day 17  ████████████████████
-Day 18  ████████████████████
-Day 19  ████████████████████
-Day 20  ████████████████████
-Day 21  ████████████████████
-Day 22  ████████████████████
-Day 23  ████████████████████
-Day 24  ████████████████████
-Day 25  ████████████████████
-Day 26  ████████████████████
-Day 27  ████████████████████
-Day 28  ████████████████████
-Day 29  ████████████████████
-```
-
----
-
-# 📊 Challenge Progress
-
-```text
-Completed: 29 / 30
-
-█████████████████████████████
-
-97% Complete
-```
-
-### 🎯 Only 1 Day Remaining!
-
-```text
-Day 25 ✅
-Day 26 ✅
-Day 27 ✅
-Day 28 ✅
-Day 29 ✅
-Day 30 🏆
-```
-
-**29 days down. Only 1 more to go! 🚀🔥**
-
----
-
-# 🌐 Connect With Me
-
-## 💼 LinkedIn
-
-🔗 [LinkedIn](https://www.linkedin.com/in/krishna-solanke-4123972b6)
-
-## 💻 GitHub
-
-🔗 [GitHub](https://github.com/krishna570)
-
-## 🏆 HackerRank
-
-🔗 [HackerRank](https://www.hackerrank.com/krishna570)
-
----
-
-# ⭐ Support
-
-If you find this repository helpful or enjoy following my learning journey, consider giving it a **⭐ Star**.
-
-Your support motivates me to keep learning, improving, and sharing my progress with the developer community! 💙
-
----
-
-# 🚀 My Goal
-
-> **"Every coding challenge I solve strengthens my logical thinking, improves my problem-solving skills, and brings me one step closer to becoming a skilled Software Engineer and Data Scientist."**
-
----
-
-# 💙 Thanks for Visiting!
 
 **29 Days Completed.**
 

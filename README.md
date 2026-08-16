@@ -839,11 +839,11 @@ My next focus will be:
 
 # 📈 My Learning Journey
 
-**29 Days Completed.**
+**30 Days Completed.**
 
 **30-Day Challenge in Progress.**
 
-**1 Day Remaining.**
+**Challange Completed **
 
 ### Keep Coding. Keep Learning. Keep Growing. 🚀🐍🔥
 

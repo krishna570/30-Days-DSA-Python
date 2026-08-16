@@ -841,7 +841,7 @@ My next focus will be:
 
 **30 Days Completed.**
 
-**30-Day Challenge in Progress.**
+**30-Day Challenge Completed**
 
 **Challange Completed **
 
